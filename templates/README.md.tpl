@@ -295,7 +295,7 @@ Here are some of my favorite projects
 </div>
 
 ### 📜 My Recent Dev.to Posts
-{{range rss "https://dev.to/feed/LukeParke" 5}}
+{{range rss "https://dev.to/feed/lukeparke" 5}}
 - [{{.Title}}]({{.URL}})
 {{- end}}
 
