@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="https://githubstats.plygrnd.org/api/image/LukeHagar/readme-dark-waves">
+   <img src="https://raw.githubusercontent.com/LukasParke/github-stats-remotion/main/out/readme.gif">
 </div>
 
 <div align="center">
@@ -12,7 +12,7 @@ I love Open Source, Developer Tooling, API Design, and all things Svelte.
 
 Here are some of my sites
 
-[My Portfolio](https://lukehagar.com/) | [My Bento](https://bento.me/lukehagar) | [LinkedIn](https://www.linkedin.com/in/lukehagar/) | [Dev.to](https://dev.to/lukehagar) | [The OpenAPI Guy Blog](https://openapiguy.dev)
+[LinkedIn](https://www.linkedin.com/in/LukeParke/) | [Dev.to](https://dev.to/LukeParke) | [The OpenAPI Guy Blog](https://openapiguy.dev)
 
 <hr/>
 
@@ -26,43 +26,43 @@ Here are some of my favorite projects
 <b>SvelteKit</b>
 <br/>
 
-<a href="https://github.com/LukeHagar/Sveltey">
+<a href="https://github.com/LukasParke/Sveltey">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=Sveltey&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=Sveltey&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=Sveltey&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=Sveltey&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=Sveltey&description_lines_count=1" alt="Sveltey" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=Sveltey&description_lines_count=1" alt="Sveltey" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/sveltekit-adapters">
+<a href="https://github.com/LukasParke/sveltekit-adapters">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-adapters&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-adapters&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-adapters&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-adapters&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-adapters&description_lines_count=1" alt="SvelteKit Adapters" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-adapters&description_lines_count=1" alt="SvelteKit Adapters" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/sveltekit-extension-template">
+<a href="https://github.com/LukasParke/sveltekit-extension-template">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-extension-template&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-extension-template&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-extension-template&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-extension-template&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=sveltekit-extension-template&description_lines_count=1" alt="SvelteKit Extension Template" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=sveltekit-extension-template&description_lines_count=1" alt="SvelteKit Extension Template" />
   </picture>
 </a>
 
@@ -71,43 +71,43 @@ Here are some of my favorite projects
 <b>GitHub Stats Automation</b>
 <br/>
 
-<a href="https://github.com/LukeHagar/stats-action">
+<a href="https://github.com/LukasParke/stats-action">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats-action&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats-action&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats-action&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats-action&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats-action&description_lines_count=1" alt="Stats Action" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats-action&description_lines_count=1" alt="Stats Action" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/github-stats-remotion">
+<a href="https://github.com/LukasParke/github-stats-remotion">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=github-stats-remotion&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=github-stats-remotion&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=github-stats-remotion&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=github-stats-remotion&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=github-stats-remotion&description_lines_count=1" alt="GitHub Stats Remotion" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=github-stats-remotion&description_lines_count=1" alt="GitHub Stats Remotion" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/stats">
+<a href="https://github.com/LukasParke/stats">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=stats&description_lines_count=1" alt="Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=stats&description_lines_count=1" alt="Stats" />
   </picture>
 </a>
 
@@ -116,43 +116,43 @@ Here are some of my favorite projects
 <b>OpenAPI Tooling</b>
 <br/>
 
-<a href="https://github.com/LukeHagar/arbiter">
+<a href="https://github.com/LukasParke/arbiter">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=arbiter&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=arbiter&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=arbiter&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=arbiter&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=arbiter&description_lines_count=1" alt="Arbiter" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=arbiter&description_lines_count=1" alt="Arbiter" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/OpenAPI.gg">
+<a href="https://github.com/LukasParke/OpenAPI.gg">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=OpenAPI.gg&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=OpenAPI.gg&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=OpenAPI.gg&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=OpenAPI.gg&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=OpenAPI.gg&description_lines_count=1" alt="OpenAPI.gg" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=OpenAPI.gg&description_lines_count=1" alt="OpenAPI.gg" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/openapi-definition-generator">
+<a href="https://github.com/LukasParke/openapi-definition-generator">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=openapi-definition-generator&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=openapi-definition-generator&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=openapi-definition-generator&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=openapi-definition-generator&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=openapi-definition-generator&description_lines_count=1" alt="OpenAPI Definition Generator" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=openapi-definition-generator&description_lines_count=1" alt="OpenAPI Definition Generator" />
   </picture>
 </a>
 
@@ -161,134 +161,134 @@ Here are some of my favorite projects
 <b>Plex</b>
 <br/>
 
-<a href="https://github.com/LukeHagar/plex-api-spec">
+<a href="https://github.com/LukasParke/plex-api-spec">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-api-spec&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-api-spec&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-api-spec&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-api-spec&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-api-spec&description_lines_count=1" alt="Plex API Spec" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-api-spec&description_lines_count=1" alt="Plex API Spec" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plex-mintlify-docs">
+<a href="https://github.com/LukasParke/plex-mintlify-docs">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-mintlify-docs&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-mintlify-docs&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-mintlify-docs&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-mintlify-docs&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plex-mintlify-docs&description_lines_count=1" alt="Plex Mintlify Docs" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plex-mintlify-docs&description_lines_count=1" alt="Plex Mintlify Docs" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexjs">
+<a href="https://github.com/LukasParke/plexjs">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjs&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjs&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjs&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjs&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjs&description_lines_count=1" alt="PlexJS" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjs&description_lines_count=1" alt="PlexJS" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexpy">
+<a href="https://github.com/LukasParke/plexpy">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexpy&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexpy&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexpy&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexpy&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexpy&description_lines_count=1" alt="PlexPy" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexpy&description_lines_count=1" alt="PlexPy" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexgo">
+<a href="https://github.com/LukasParke/plexgo">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexgo&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexgo&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexgo&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexgo&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexgo&description_lines_count=1" alt="PlexGo" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexgo&description_lines_count=1" alt="PlexGo" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexruby">
+<a href="https://github.com/LukasParke/plexruby">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexruby&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexruby&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexruby&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexruby&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexruby&description_lines_count=1" alt="PlexRuby" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexruby&description_lines_count=1" alt="PlexRuby" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexswift">
+<a href="https://github.com/LukasParke/plexswift">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexswift&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexswift&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexswift&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexswift&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexswift&description_lines_count=1" alt="PlexSwift" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexswift&description_lines_count=1" alt="PlexSwift" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexphp">
+<a href="https://github.com/LukasParke/plexphp">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexphp&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexphp&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexphp&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexphp&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexphp&description_lines_count=1" alt="PlexPHP" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexphp&description_lines_count=1" alt="PlexPHP" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexjava">
+<a href="https://github.com/LukasParke/plexjava">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjava&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjava&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjava&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjava&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexjava&description_lines_count=1" alt="PlexJava" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexjava&description_lines_count=1" alt="PlexJava" />
   </picture>
 </a>
-<a href="https://github.com/LukeHagar/plexcsharp">
+<a href="https://github.com/LukasParke/plexcsharp">
   <picture>
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexcsharp&theme=dark&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexcsharp&theme=dark&description_lines_count=1"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexcsharp&description_lines_count=1"
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexcsharp&description_lines_count=1"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukeHagar&repo=plexcsharp&description_lines_count=1" alt="PlexCSharp" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LukasParke&repo=plexcsharp&description_lines_count=1" alt="PlexCSharp" />
   </picture>
 </a>
 
@@ -296,60 +296,60 @@ Here are some of my favorite projects
 
 ### 📜 My Recent Dev.to Posts
 
-- [Deploy SvelteKit node servers with docker](https://dev.to/lukehagar/deploy-sveltekit-node-servers-with-docker-1ep7)
-- [Coolify is the best thing for Homelabs since Fiber](https://dev.to/lukehagar/coolify-is-the-best-thing-for-homelabs-since-fiber-1kb5)
-- [The next generation of GitHub profile stats](https://dev.to/lukehagar/the-next-generation-of-github-profile-stats-1nh8)
-- [Building a world-class suite of SDKs is easy with Speakeasy](https://dev.to/lukehagar/building-a-world-class-suite-of-sdks-is-easy-with-speakeasy-37ba)
-- [Writing better Cobra CLI help messages with glamour](https://dev.to/lukehagar/writing-better-cobra-cli-help-messages-with-glamour-1525)
+- [Deploy SvelteKit node servers with docker](https://dev.to/lukeparke/deploy-sveltekit-node-servers-with-docker-1ep7)
+- [Coolify is the best thing for Homelabs since Fiber](https://dev.to/lukeparke/coolify-is-the-best-thing-for-homelabs-since-fiber-1kb5)
+- [The next generation of GitHub profile stats](https://dev.to/lukeparke/the-next-generation-of-github-profile-stats-1nh8)
+- [Building a world-class suite of SDKs is easy with Speakeasy](https://dev.to/lukeparke/building-a-world-class-suite-of-sdks-is-easy-with-speakeasy-37ba)
+- [Writing better Cobra CLI help messages with glamour](https://dev.to/lukeparke/writing-better-cobra-cli-help-messages-with-glamour-1525)
 
 ### 📈 My Recent PRs
 
-- [LukeHagar/slinky](https://github.com/LukeHagar/slinky/pull/1) - testing some workflow optimizations
-- [LukeHagar/omarchy](https://github.com/LukeHagar/omarchy/pull/2) - Sync fork:branch with Dev
-- [LukeHagar/omarchy](https://github.com/LukeHagar/omarchy/pull/1) - Update branch with current origin:Dev
-- [LukeHagar/prettier-plugin-openapi](https://github.com/LukeHagar/prettier-plugin-openapi/pull/3) - chore: update dependencies and full integrate markdown formatting wit…
-- [LukeHagar/prettier-plugin-openapi](https://github.com/LukeHagar/prettier-plugin-openapi/pull/2) - Formatting the GFM
+- [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/4) - Repository name lowercase
+- [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/3) - Official railpack action
+- [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/2) - Buildkit syntax error
+- [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/1) - Oci image deployment
+- [LukasParke/home-ops](https://github.com/LukasParke/home-ops/pull/4) - Service network app implementation
 
 ### 👷 My Recent Contributions
 
-- [LukeHagar/stats](https://github.com/LukeHagar/stats) - A template repository for automatically collecting stats on your GitHub profile
-- [LukeHagar/github-stats-remotion](https://github.com/LukeHagar/github-stats-remotion) - A remotion GitHub action for generating readme profile gifs of your GitHub stats
-- [LukeHagar/pocketbase](https://github.com/LukeHagar/pocketbase) - A bit of community automation to keep a DockerHub image of pocketbase always up to date
-- [LukeHagar/plex-mintlify-docs](https://github.com/LukeHagar/plex-mintlify-docs) - Open Source Plex Media Server API Documentation
-- [LukeHagar/parke.dev](https://github.com/LukeHagar/parke.dev) - A new set of personal sites
-- [LukeHagar/Awesome-GitHub-Profile](https://github.com/LukeHagar/Awesome-GitHub-Profile) - An example repository for some of the great things you can do with GitHub profile automation
-- [LukeHagar/plex-api-spec](https://github.com/LukeHagar/plex-api-spec) - A Plex Media Server OpenAPI Specification maintained by the community
-- [LukeHagar/plexruby](https://github.com/LukeHagar/plexruby) - An open source Plex Media Server ruby SDK
-- [LukeHagar/prettier-plugin-openapi](https://github.com/LukeHagar/prettier-plugin-openapi) - A prettier plugin to organize OpenAPI files for human readability
-- [LukeHagar/volar-docs](https://github.com/LukeHagar/volar-docs) - An attempt at documenting the VolarJS framework
+- [LukasParke/github-stats-remotion](https://github.com/LukasParke/github-stats-remotion) - A remotion GitHub action for generating readme profile gifs of your GitHub stats
+- [LukasParke/stats](https://github.com/LukasParke/stats) - A template repository for automatically collecting stats on your GitHub profile
+- [LukasParke/homelab](https://github.com/LukasParke/homelab) - 
+- [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev) - A new set of personal sites
+- [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
+- [LukasParke/github-stats-api](https://github.com/LukasParke/github-stats-api) - 
+- [LukasParke/pocketbase](https://github.com/LukasParke/pocketbase) - A bit of community automation to keep a DockerHub image of pocketbase always up to date
+- [LukasParke/home-ops](https://github.com/LukasParke/home-ops) - 
+- [Redocly/redocly-cli](https://github.com/Redocly/redocly-cli) - ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more.
+- [LukasParke/omarchy-dream-theme](https://github.com/LukasParke/omarchy-dream-theme) - 
+- [LukasParke/plex-mintlify-docs](https://github.com/LukasParke/plex-mintlify-docs) - Open Source Plex Media Server API Documentation
+- [LukasParke/pypistats.dev](https://github.com/LukasParke/pypistats.dev) - On-demand PyPI download analytics
+- [LukasParke/plexjs](https://github.com/LukasParke/plexjs) - A Typescript SDK for interacting with Plex Media Server
+- [LukasParke/stats-action](https://github.com/LukasParke/stats-action) - A GitHub action to collect stats on your GitHub profile for further processing
+- [LukasParke/Awesome-GitHub-Profile](https://github.com/LukasParke/Awesome-GitHub-Profile) - An example repository for some of the great things you can do with GitHub profile automation
+- [LukasParke/plexruby](https://github.com/LukasParke/plexruby) - An open source Plex Media Server ruby SDK
+- [LukasParke/plex-api-spec](https://github.com/LukasParke/plex-api-spec) - A Plex Media Server OpenAPI Specification maintained by the community
+- [LukasParke/prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) - A prettier plugin to organize OpenAPI files for human readability
+- [LukasParke/volar-docs](https://github.com/LukasParke/volar-docs) - An attempt at documenting the VolarJS framework
 - [sailpoint-oss/api-specs](https://github.com/sailpoint-oss/api-specs) - This repo houses the API specifications for all SailPoint services.
-- [LukeHagar/pypistats.dev](https://github.com/LukeHagar/pypistats.dev) - On-demand PyPI download analytics
-- [LukeHagar/OpenAPI.gg](https://github.com/LukeHagar/OpenAPI.gg) - An OpenAPI design studio
-- [LukeHagar/subdomain-test](https://github.com/LukeHagar/subdomain-test) - Testing out subdomain handling on Coolify
-- [LukeHagar/openapi-definition-generator](https://github.com/LukeHagar/openapi-definition-generator) - A simple too to convert API responses into OpenAPI Definitions at the click of a button
-- [LukeHagar/LukeHagar.com](https://github.com/LukeHagar/LukeHagar.com) - Open Source code for my personal site
-- [LukeHagar/sveltekit-adapters](https://github.com/LukeHagar/sveltekit-adapters) - A collection of SvelteKit adapters for various platforms and examples on how to use them
-- [better-auth/better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework for TypeScript
-- [LukeHagar/plexjava](https://github.com/LukeHagar/plexjava) - An open source Plex Media Server Java SDK
-- [LukeHagar/plexphp](https://github.com/LukeHagar/plexphp) - An open source Plex Media Server php SDK
 
 <div align="center">
 
 #### 👯 My Recent followers
 
-[Seckin Yasar](https://github.com/seckinyasar)
+[Alex Rigler](https://github.com/alexrigler)
+[Naser ](https://github.com/itsnaser)
+[Luke Parke](https://github.com/luke-hagar-sp)
 [mcollard0](https://github.com/mcollard0)
 [Jeff Carpenter](https://github.com/JeffCarpenter)
 [Slava](https://github.com/slavaGanzin)
-[فريدمحمد النجاشي](https://github.com/b03073557)
+[فريدمحمدعبده النجاشي](https://github.com/b03073557)
 [jshailes](https://github.com/jshailes)
 [Johnathan Ludwig](https://github.com/johnathanludwig)
 [Augie](https://github.com/AugusDogus)
-[Bocaletto Luca](https://github.com/bocaletto-luca)
-[Rayen Korbi](https://github.com/korbirayen)
 
 </div>
 
-Want your own profile stats? Check out this [guide](https://github.com/LukeHagar/Awesome-GitHub-Profile)
+Want your own profile stats? Check out this [guide](https://github.com/LukasParke/Awesome-GitHub-Profile)
 
 
