@@ -314,10 +314,11 @@ Here are some of my favorite projects
 
 - [LukasParke/github-stats-remotion](https://github.com/LukasParke/github-stats-remotion) - A remotion GitHub action for generating readme profile gifs of your GitHub stats
 - [LukasParke/stats](https://github.com/LukasParke/stats) - A template repository for automatically collecting stats on your GitHub profile
+- [LukasParke/capi](https://github.com/LukasParke/capi) - CEC API
 - [LukasParke/homelab](https://github.com/LukasParke/homelab) - 
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev) - A new set of personal sites
-- [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
 - [LukasParke/github-stats-api](https://github.com/LukasParke/github-stats-api) - 
+- [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
 - [LukasParke/pocketbase](https://github.com/LukasParke/pocketbase) - A bit of community automation to keep a DockerHub image of pocketbase always up to date
 - [LukasParke/home-ops](https://github.com/LukasParke/home-ops) - 
 - [Redocly/redocly-cli](https://github.com/Redocly/redocly-cli) - ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more.
@@ -331,7 +332,6 @@ Here are some of my favorite projects
 - [LukasParke/plex-api-spec](https://github.com/LukasParke/plex-api-spec) - A Plex Media Server OpenAPI Specification maintained by the community
 - [LukasParke/prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) - A prettier plugin to organize OpenAPI files for human readability
 - [LukasParke/volar-docs](https://github.com/LukasParke/volar-docs) - An attempt at documenting the VolarJS framework
-- [sailpoint-oss/api-specs](https://github.com/sailpoint-oss/api-specs) - This repo houses the API specifications for all SailPoint services.
 
 <div align="center">
 
