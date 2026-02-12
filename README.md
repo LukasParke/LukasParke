@@ -317,8 +317,8 @@ Here are some of my favorite projects
 - [LukasParke/capi](https://github.com/LukasParke/capi) - CEC API
 - [LukasParke/homelab](https://github.com/LukasParke/homelab) - 
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev) - A new set of personal sites
-- [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
 - [LukasParke/github-stats-api](https://github.com/LukasParke/github-stats-api) - 
+- [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
 - [LukasParke/pocketbase](https://github.com/LukasParke/pocketbase) - A bit of community automation to keep a DockerHub image of pocketbase always up to date
 - [LukasParke/home-ops](https://github.com/LukasParke/home-ops) - 
 - [Redocly/redocly-cli](https://github.com/Redocly/redocly-cli) - ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more.
