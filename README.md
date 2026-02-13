@@ -328,8 +328,8 @@ Here are some of my favorite projects
 - [LukasParke/plexjs](https://github.com/LukasParke/plexjs) - A Typescript SDK for interacting with Plex Media Server
 - [LukasParke/stats-action](https://github.com/LukasParke/stats-action) - A GitHub action to collect stats on your GitHub profile for further processing
 - [LukasParke/Awesome-GitHub-Profile](https://github.com/LukasParke/Awesome-GitHub-Profile) - An example repository for some of the great things you can do with GitHub profile automation
-- [LukasParke/plexruby](https://github.com/LukasParke/plexruby) - An open source Plex Media Server ruby SDK
 - [LukasParke/plex-api-spec](https://github.com/LukasParke/plex-api-spec) - A Plex Media Server OpenAPI Specification maintained by the community
+- [LukasParke/plexruby](https://github.com/LukasParke/plexruby) - An open source Plex Media Server ruby SDK
 - [LukasParke/prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) - A prettier plugin to organize OpenAPI files for human readability
 - [LukasParke/volar-docs](https://github.com/LukasParke/volar-docs) - An attempt at documenting the VolarJS framework
 
