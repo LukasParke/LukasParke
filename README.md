@@ -304,11 +304,11 @@ Here are some of my favorite projects
 
 ### 📈 My Recent PRs
 
+- [daveshanley/vacuum](https://github.com/daveshanley/vacuum/pull/817) - Invert PathItemReferences rule to validate $ref usage in operations
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/4) - Repository name lowercase
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/3) - Official railpack action
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/2) - Buildkit syntax error
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev/pull/1) - Oci image deployment
-- [LukasParke/home-ops](https://github.com/LukasParke/home-ops/pull/4) - Service network app implementation
 
 ### 👷 My Recent Contributions
 
