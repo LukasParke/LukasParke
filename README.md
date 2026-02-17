@@ -315,6 +315,7 @@ Here are some of my favorite projects
 - [LukasParke/github-stats-remotion](https://github.com/LukasParke/github-stats-remotion) - A remotion GitHub action for generating readme profile gifs of your GitHub stats
 - [LukasParke/stats](https://github.com/LukasParke/stats) - A template repository for automatically collecting stats on your GitHub profile
 - [sailpoint-oss/developer.sailpoint.com](https://github.com/sailpoint-oss/developer.sailpoint.com) - The codebase that makes up developer.sailpoint.com, including developer documentation. This codebase is open source and welcomes contributions.
+- [sailpoint-oss/sailpoint-cli](https://github.com/sailpoint-oss/sailpoint-cli) - The SailPoint Command Line Interface (CLI) makes it easy to interact with SailPoint&#39;s SaaS Platform in a programmatic way. Many functions that use to be accomplished through tools like Postman or from custom scripts can now be done directly on the command line with minimal setup.
 - [LukasParke/capi](https://github.com/LukasParke/capi) - CEC API
 - [LukasParke/parke.dev](https://github.com/LukasParke/parke.dev) - A new set of personal sites
 - [LukasParke/OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - An OpenAPI design studio
@@ -331,7 +332,6 @@ Here are some of my favorite projects
 - [LukasParke/plex-api-spec](https://github.com/LukasParke/plex-api-spec) - A Plex Media Server OpenAPI Specification maintained by the community
 - [LukasParke/plexruby](https://github.com/LukasParke/plexruby) - An open source Plex Media Server ruby SDK
 - [LukasParke/prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) - A prettier plugin to organize OpenAPI files for human readability
-- [LukasParke/volar-docs](https://github.com/LukasParke/volar-docs) - An attempt at documenting the VolarJS framework
 
 <div align="center">
 
