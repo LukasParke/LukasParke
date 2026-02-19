@@ -23,13 +23,13 @@ Svelte
 - [Sveltekit Adapters](https://github.com/LukasParke/sveltekit-adapters) - A collection of SvelteKit adapters
 - [Sveltekit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) - A template for creating a SvelteKit based Chrome extension
 
-
 GitHub
 - [Stats Action](https://github.com/LukasParke/stats-action) - A GitHub action that collects your GitHub stats stores them in a json file
 - [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) - A Remotion project that generated gifs of your GitHub stats
 - [Stats](https://github.com/LukasParke/stats) - A template repository for collecting and displaying your GitHub stats
 
 OpenAPI
+- [Telescope](https://github.com/sailpoint-oss/telescope) - An OpenAPI LSP extension for VSCode and Cursor
 - [Arbiter](https://github.com/LukasParke/arbiter) - A powerful API proxy, that will document your API as you use it
 - [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - A visual OpenAPI designer
 - [OpenAPI Definition Generator](https://github.com/LukasParke/openapi-definition-generator) - A tool for generating OpenAPI definitions from JSON response bodies
