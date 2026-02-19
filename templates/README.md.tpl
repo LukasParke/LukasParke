@@ -19,7 +19,7 @@ I love Open Source, Developer Tooling, API Design, and all things Svelte.
 Some things I've built:
 
 Svelte
-- [https://github.com/LukasParke/Sveltey]
+- (Sveltey)[https://github.com/LukasParke/Sveltey] - A SvelteKit SaaS Starter template
 - [https://github.com/LukasParke/sveltekit-adapters]
 - [https://github.com/LukasParke/sveltekit-extension-template]
 
