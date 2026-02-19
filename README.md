@@ -25,7 +25,7 @@ Svelte
 
 GitHub
 - [Stats Action](https://github.com/LukasParke/stats-action) - A GitHub action that collects your GitHub stats stores them in a json file
-- [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) - A Remotion project that generated gifs of your GitHub stats
+- [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) - A Remotion project that generates gifs of your GitHub stats
 - [Stats](https://github.com/LukasParke/stats) - A template repository for collecting and displaying your GitHub stats
 
 OpenAPI
