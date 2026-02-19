@@ -21,7 +21,7 @@ Some things I've built:
 Svelte
 - [Sveltey](https://github.com/LukasParke/Sveltey) - A SvelteKit SaaS Starter template
 - [Sveltekit Adapters](https://github.com/LukasParke/sveltekit-adapters) - A collection of SvelteKit adapters
-- [Sveltekit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) - A template for creating a SvelteKit based Chrome extension
+- [Sveltekit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) - A template for creating a Chrome extension with SvelteKit
 
 GitHub
 - [Stats Action](https://github.com/LukasParke/stats-action) - A GitHub action that collects your GitHub stats stores them in a json file
