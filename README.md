@@ -19,32 +19,32 @@ I love Open Source, Developer Tooling, API Design, and all things Svelte.
 Some things I've built:
 
 Svelte
-- (Sveltey)[https://github.com/LukasParke/Sveltey] - A SvelteKit SaaS Starter template
-- [https://github.com/LukasParke/sveltekit-adapters]
-- [https://github.com/LukasParke/sveltekit-extension-template]
+- [Sveltey](https://github.com/LukasParke/Sveltey) - A SvelteKit SaaS Starter template
+- [Sveltekit Adapters](https://github.com/LukasParke/sveltekit-adapters) - A collection of SvelteKit adapters
+- [Sveltekit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) - A template for creating a SvelteKit based Chrome extension
 
 
 GitHub
-- [https://github.com/LukasParke/stats-action]
-- [https://github.com/LukasParke/github-stats-remotion]
-- [https://github.com/LukasParke/stats]
+- [Stats Action](https://github.com/LukasParke/stats-action) - A GitHub action that collects your GitHub stats stores them in a json file
+- [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) - A Remotion project that generated gifs of your GitHub stats
+- [Stats](https://github.com/LukasParke/stats) - A template repository for collecting and displaying your GitHub stats
 
 OpenAPI
-- [https://github.com/LukasParke/arbiter]
-- [https://github.com/LukasParke/OpenAPI.gg]
-- [https://github.com/LukasParke/openapi-definition-generator]
+- [Arbiter](https://github.com/LukasParke/arbiter) - A powerful API proxy, that will document your API as you use it
+- [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) - A visual OpenAPI designer
+- [OpenAPI Definition Generator](https://github.com/LukasParke/openapi-definition-generator) - A tool for generating OpenAPI definitions from JSON response bodies
 
 Plex
-- [https://github.com/LukasParke/plex-api-spec]
-- [https://github.com/LukasParke/plex-mintlify-docs]
-- [https://github.com/LukasParke/plexjs]
-- [https://github.com/LukasParke/plexpy]
-- [https://github.com/LukasParke/plexgo]
-- [https://github.com/LukasParke/plexruby]
-- [https://github.com/LukasParke/plexswift]
-- [https://github.com/LukasParke/plexphp]
-- [https://github.com/LukasParke/plexjava]
-- [https://github.com/LukasParke/plexcsharp]
+- [Plex API Spec](https://github.com/LukasParke/plex-api-spec) - A better Plex API specification
+- [Plex Mintlify Docs](https://github.com/LukasParke/plex-mintlify-docs) - Mintlify documentation created from the Plex API spec
+- [PlexJS](https://github.com/LukasParke/plexjs) - A JavaScript SDK for the Plex API
+- [PlexPy](https://github.com/LukasParke/plexpy) - A Python SDK for the Plex API
+- [PlexGo](https://github.com/LukasParke/plexgo) - A Go SDK for the Plex API
+- [PlexRuby](https://github.com/LukasParke/plexruby) - A Ruby SDK for the Plex API
+- [PlexSwift](https://github.com/LukasParke/plexswift) - A Swift SDK for the Plex API
+- [PlexPHP](https://github.com/LukasParke/plexphp) - A PHP SDK for the Plex API
+- [PlexJava](https://github.com/LukasParke/plexjava) - A Java SDK for the Plex API
+- [PlexCSharp](https://github.com/LukasParke/plexcsharp) - A C# SDK for the Plex API
 
 ### 📜 My Recent Dev.to Posts
 
