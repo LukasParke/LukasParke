@@ -37,14 +37,14 @@ OpenAPI
 Plex
 - [Plex API Spec](https://github.com/LukasParke/plex-api-spec) - A better Plex API specification
 - [Plex Mintlify Docs](https://github.com/LukasParke/plex-mintlify-docs) - Mintlify documentation created from the Plex API spec
-- [PlexJS](https://github.com/LukasParke/plexjs) - A JavaScript SDK for the Plex API
-- [PlexPy](https://github.com/LukasParke/plexpy) - A Python SDK for the Plex API
-- [PlexGo](https://github.com/LukasParke/plexgo) - A Go SDK for the Plex API
-- [PlexRuby](https://github.com/LukasParke/plexruby) - A Ruby SDK for the Plex API
-- [PlexSwift](https://github.com/LukasParke/plexswift) - A Swift SDK for the Plex API
-- [PlexPHP](https://github.com/LukasParke/plexphp) - A PHP SDK for the Plex API
-- [PlexJava](https://github.com/LukasParke/plexjava) - A Java SDK for the Plex API
-- [PlexCSharp](https://github.com/LukasParke/plexcsharp) - A C# SDK for the Plex API
+- [PlexJS](https://github.com/LukasParke/plexjs) - A JavaScript SDK for Plex Media Server
+- [PlexPy](https://github.com/LukasParke/plexpy) - A Python SDK for the Plex Media Server
+- [PlexGo](https://github.com/LukasParke/plexgo) - A Go SDK for the Plex Media Server
+- [PlexRuby](https://github.com/LukasParke/plexruby) - A Ruby SDK for the Plex Media Server
+- [PlexSwift](https://github.com/LukasParke/plexswift) - A Swift SDK for the Plex Media Server
+- [PlexPHP](https://github.com/LukasParke/plexphp) - A PHP SDK for the Plex Media Server
+- [PlexJava](https://github.com/LukasParke/plexjava) - A Java SDK for the Plex Media Server
+- [PlexCSharp](https://github.com/LukasParke/plexcsharp) - A C# SDK for the Plex Media Server
 
 ### 📜 My Recent Dev.to Posts
 
