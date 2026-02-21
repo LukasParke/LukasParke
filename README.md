@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [🤝 Join My Growing Remote Team! 🚀](https://github.com/stellarlighthub)
 - [Alex Rigler](https://github.com/alexrigler)
 - [Naser ](https://github.com/itsnaser)
 - [Luke Parke](https://github.com/luke-hagar-sp)
@@ -75,7 +76,6 @@ Plex
 - [Connor](https://github.com/Connor9994)
 - [davido3574](https://github.com/davido3574)
 - [Ânōōp](https://github.com/wardin)
-- [Lucas](https://github.com/lulunac27a)
 
 
 
