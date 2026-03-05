@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Robert ](https://github.com/robbevs84)
 - [🤝 Join My Growing Remote Team! 🚀](https://github.com/stellarlighthub)
 - [Alex Rigler](https://github.com/alexrigler)
 - [Naser ](https://github.com/itsnaser)
@@ -75,7 +76,6 @@ Plex
 - [emeraldjava](https://github.com/emeraldjava)
 - [Connor](https://github.com/Connor9994)
 - [davido3574](https://github.com/davido3574)
-- [Ânōōp](https://github.com/wardin)
 
 
 
