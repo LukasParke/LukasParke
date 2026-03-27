@@ -58,7 +58,6 @@ Plex
 
 - [JONH-droid](https://github.com/JONH-droid)
 - [Robert ](https://github.com/robbevs84)
-- [🤝 Join My Growing Remote Team! 🚀](https://github.com/stellarlighthub)
 - [Alex Rigler](https://github.com/alexrigler)
 - [Naser ](https://github.com/itsnaser)
 - [Luke Parke](https://github.com/luke-hagar-sp)
@@ -76,6 +75,7 @@ Plex
 - [Jeremy](https://github.com/pawjwp)
 - [emeraldjava](https://github.com/emeraldjava)
 - [Connor](https://github.com/Connor9994)
+- [davido3574](https://github.com/davido3574)
 
 
 
