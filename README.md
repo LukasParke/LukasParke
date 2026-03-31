@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Ari4ka](https://github.com/Ari4ka)
 - [JONH-droid](https://github.com/JONH-droid)
 - [Robert ](https://github.com/robbevs84)
 - [Alex Rigler](https://github.com/alexrigler)
@@ -75,7 +76,6 @@ Plex
 - [Jeremy](https://github.com/pawjwp)
 - [emeraldjava](https://github.com/emeraldjava)
 - [Connor](https://github.com/Connor9994)
-- [davido3574](https://github.com/davido3574)
 
 
 
