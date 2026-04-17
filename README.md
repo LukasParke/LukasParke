@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [AustinN](https://github.com/aUsABuisnessman)
 - [Ari4ka](https://github.com/Ari4ka)
 - [JONH-droid](https://github.com/JONH-droid)
 - [Robert ](https://github.com/robbevs84)
@@ -75,7 +76,6 @@ Plex
 - [Marc Laventure](https://github.com/marclave)
 - [Jeremy](https://github.com/pawjwp)
 - [emeraldjava](https://github.com/emeraldjava)
-- [Connor](https://github.com/Connor9994)
 
 
 
