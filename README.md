@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
 - [Ari4ka](https://github.com/Ari4ka)
 - [JONH-droid](https://github.com/JONH-droid)
@@ -75,7 +76,6 @@ Plex
 - [Marcos Viana](https://github.com/Maarcosv99)
 - [Marc Laventure](https://github.com/marclave)
 - [Jeremy](https://github.com/pawjwp)
-- [emeraldjava](https://github.com/emeraldjava)
 
 
 
