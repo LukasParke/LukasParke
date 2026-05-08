@@ -56,7 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
-- [omidmeshkinghalam1371-sudo](https://github.com/omidmeshkinghalam1371-sudo)
+- [Me6ki](https://github.com/omidmeshkinghalam1371-sudo)
 - [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
 - [Ari4ka](https://github.com/Ari4ka)
