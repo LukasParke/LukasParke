@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [omidmeshkinghalam1371-sudo](https://github.com/omidmeshkinghalam1371-sudo)
 - [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
 - [Ari4ka](https://github.com/Ari4ka)
@@ -75,7 +76,6 @@ Plex
 - [Rayen Korbi](https://github.com/korbirayen)
 - [Marcos Viana](https://github.com/Maarcosv99)
 - [Marc Laventure](https://github.com/marclave)
-- [Jeremy](https://github.com/pawjwp)
 
 
 
