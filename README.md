@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Christiam Ipanaque | Full Stack AI Engineer](https://github.com/chrisipanaque)
 - [turk](https://github.com/turkonthelurk)
 - [Me6ki](https://github.com/omidmeshkinghalam1371-sudo)
 - [hustler](https://github.com/0xhustlerr)
@@ -75,7 +76,6 @@ Plex
 - [Augie](https://github.com/AugusDogus)
 - [Bocaletto Luca](https://github.com/bocaletto-luca)
 - [Rayen Korbi](https://github.com/korbirayen)
-- [Marcos Viana](https://github.com/Maarcosv99)
 
 
 
