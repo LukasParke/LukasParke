@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Ali Yaşar](https://github.com/helallao)
 - [Christiam Ipanaque | Full Stack AI Engineer](https://github.com/chrisipanaque)
 - [turk](https://github.com/turkonthelurk)
 - [Me6ki](https://github.com/omidmeshkinghalam1371-sudo)
@@ -75,7 +76,6 @@ Plex
 - [Johnathan Ludwig](https://github.com/johnathanludwig)
 - [Augie](https://github.com/AugusDogus)
 - [Bocaletto Luca](https://github.com/bocaletto-luca)
-- [Rayen Korbi](https://github.com/korbirayen)
 
 
 
