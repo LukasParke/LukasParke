@@ -56,6 +56,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Jeremy McKeehen](https://github.com/trippyogi)
 - [Seckin Yasar](https://github.com/seckinyasar)
 - [Ali Yaşar](https://github.com/helallao)
 - [Christiam Ipanaque | Full Stack AI Engineer](https://github.com/chrisipanaque)
@@ -75,7 +76,6 @@ Plex
 - [فريدمحمدعبده النجاشي](https://github.com/b03073557)
 - [jshailes](https://github.com/jshailes)
 - [Johnathan Ludwig](https://github.com/johnathanludwig)
-- [Augie](https://github.com/AugusDogus)
 
 
 
