@@ -61,7 +61,6 @@ Plex
 - [Ali Yaşar](https://github.com/helallao)
 - [Christiam Ipanaque | Full Stack AI Engineer](https://github.com/chrisipanaque)
 - [turk](https://github.com/turkonthelurk)
-- [Me6ki](https://github.com/omidmeshkinghalam1371-sudo)
 - [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
 - [Ari4ka](https://github.com/Ari4ka)
@@ -76,6 +75,7 @@ Plex
 - [فريدمحمدعبده النجاشي](https://github.com/b03073557)
 - [jshailes](https://github.com/jshailes)
 - [Johnathan Ludwig](https://github.com/johnathanludwig)
+- [Augie](https://github.com/AugusDogus)
 
 
 
