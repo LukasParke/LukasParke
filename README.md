@@ -59,7 +59,7 @@ Plex
 - [Jeremy McKeehen](https://github.com/trippyogi)
 - [Seckin Yasar](https://github.com/seckinyasar)
 - [Ali Yaşar](https://github.com/helallao)
-- [Christiam Ipanaque | Full Stack AI Engineer](https://github.com/chrisipanaque)
+- [Christiam Ipanaque | Software Engineer](https://github.com/chrisipanaque)
 - [turk](https://github.com/turkonthelurk)
 - [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
