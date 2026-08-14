@@ -1,5 +1,8 @@
 <div align="center">
-   <img src="https://raw.githubusercontent.com/LukasParke/github-stats-remotion/main/out/readme.gif">
+  <picture>
+    <source srcset="https://lukasparke.github.io/diffler/readme.webp" type="image/webp">
+    <img src="https://lukasparke.github.io/diffler/readme.gif" alt="Luke Parke's GitHub statistics">
+  </picture>
 </div>
 
 <div align="center">
