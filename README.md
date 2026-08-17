@@ -63,7 +63,6 @@ Plex
 - [Jeremy McKeehen](https://github.com/trippyogi)
 - [Seckin Yasar](https://github.com/seckinyasar)
 - [Ali Yaşar](https://github.com/helallao)
-- [Christiam Ipanaque | C2C Agentic AI Engineer](https://github.com/chrisipanaque)
 - [turk](https://github.com/turkonthelurk)
 - [hustler](https://github.com/0xhustlerr)
 - [AustinN](https://github.com/aUsABuisnessman)
@@ -79,6 +78,7 @@ Plex
 - [فريدمحمدعبده النجاشي](https://github.com/b03073557)
 - [jshailes](https://github.com/jshailes)
 - [Johnathan Ludwig](https://github.com/johnathanludwig)
+- [Augie](https://github.com/AugusDogus)
 
 
 
