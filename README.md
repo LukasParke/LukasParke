@@ -59,6 +59,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [ModelPlane](https://github.com/Modelplane01)
 - [Mohamed Talal Munibari](https://github.com/Tomybarq)
 - [Jeremy McKeehen](https://github.com/trippyogi)
 - [Seckin Yasar](https://github.com/seckinyasar)
@@ -78,7 +79,6 @@ Plex
 - [فريدمحمدعبده النجاشي](https://github.com/b03073557)
 - [jshailes](https://github.com/jshailes)
 - [Johnathan Ludwig](https://github.com/johnathanludwig)
-- [Augie](https://github.com/AugusDogus)
 
 
 
