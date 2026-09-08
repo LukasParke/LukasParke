@@ -59,6 +59,7 @@ Plex
 
 #### 👯 My Recent followers
 
+- [Amara Justin](https://github.com/aramisjustin068)
 - [maesh](https://github.com/maeshinshin)
 - [ModelPlane](https://github.com/Modelplane01)
 - [Mohamed Talal Munibari](https://github.com/Tomybarq)
@@ -78,7 +79,6 @@ Plex
 - [Jeff Carpenter](https://github.com/JeffCarpenter)
 - [Slava](https://github.com/slavaGanzin)
 - [فريدمحمدعبده النجاشي](https://github.com/b03073557)
-- [jshailes](https://github.com/jshailes)
 
 
 
