@@ -18,6 +18,31 @@ are rendered and hosted by Diffler Pages. Their PNG, animated WebP, and GIF URLs
 update independently of this README. The PNG source supports reduced-motion
 preferences. Card coverage labels describe incomplete collection.
 
+## Project catalog
+
+The template fetches the public repository records from `LukasParke/stats` with
+`fetch_json`. It selects owned, non-fork, non-archived projects with descriptions,
+then assigns each project to one keyword theme. Names, descriptions, and GitHub
+topics all participate in matching; more specific themes take precedence.
+Test/demo repositories and dot-prefixed automation repositories are omitted.
+
+The first four projects in each theme are visible; the rest remain available in
+expandable lists. Stars sort each group, with recent pushes breaking ties.
+Diffler is pinned first in its theme and has a description fallback while its
+repository description is empty. Stars and UTC push dates are displayed as
+metadata, without estimating engineering effort. Telescope remains a separately
+identified collaboration rather than an owned repository.
+
+`repos_by_language(catalog)` generates a second, expandable navigation index over
+the same projects. Topic matching, ordering, descriptions, and row rendering live
+in `templates/profile.md.j2`; there is no separate project-generation script.
+The validator checks catalog completeness, unique assignment, owner scope, and
+the snapshot date before publication.
+
+To tune the catalog, edit `project_groups` (keywords/priority) and
+`description_overrides` in the template. Future repositories enter automatically
+when their public metadata qualifies.
+
 For a local preview, use a checkout of the pinned Diffler revision:
 
 ```sh

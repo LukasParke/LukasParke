@@ -5,10 +5,71 @@
   <img src="{{ profile_asset(id, {baseUrl: config.assets.baseUrl, format: 'gif'}) }}" width="{{ width }}" alt="{{ description }}">
 </picture>
 {%- endmacro -%}
+{%- macro project_table(items) -%}
+| Project | Language | Stars / last push |
+| --- | --- | --- |
+{% for project in items -%}
+| <!-- project: {{ project.nameWithOwner }} -->[**{{ project.name | escape }}**]({{ project.url }})<br>{{ project.description | replace("\n", " ") | replace("\r", " ") | truncate(150) | escape | replace("|", "&#124;") }} | {{ project.primaryLanguage or "—" }} | ★ {{ project.stars }}<br>{{ project.pushedAt.slice(0, 10) }} |
+{% endfor -%}
+{%- endmacro -%}
 {%- set posts = devto_posts("lukeparke", 5) -%}
 {%- set community = fetch_json("https://api.github.com/users/LukasParke/followers?per_page=100").slice(-20) | reverse -%}
+{%- set project_snapshot = fetch_json("https://raw.githubusercontent.com/LukasParke/stats/main/github-user-stats.json") -%}
+{%- set description_overrides = {
+  diffler: "GitHub statistics, profile READMEs, and animated cards—the tooling behind this profile."
+} -%}
+{%- set project_groups = [
+  {id: "api", title: "API design & schemas", priority: 4, keywords: ["openapi", "oas", "schema", "language server", "lsp", "volar", "api spec", "websocket"], projects: []},
+  {id: "agents", title: "AI & coding agents", priority: 1, keywords: ["coding agent", "coding-agent", "mcp", "qwen", "llm", "whiteboard"], projects: []},
+  {id: "svelte", title: "Svelte & web apps", priority: 2, keywords: ["svelte", "personal site", "homepage"], projects: []},
+  {id: "media", title: "Plex, media & devices", priority: 0, keywords: ["plex", "yoto", "wave3", "wave:3", "cec api", "terminal music"], projects: []},
+  {id: "sdks", title: "SDKs & integrations", priority: 3, keywords: ["sdk", "integration", "oauth"], projects: []},
+  {id: "workflow", title: "GitHub & developer workflows", priority: 5, keywords: ["github action", "github profile", "readme", "diffler", "default app", "pypi", "download analytics", "dead links"], projects: []},
+  {id: "data", title: "Data & homelab", priority: 6, keywords: ["nethys", "docker", "homelab", "pocketbase", "selfhost", "linux", "coolify", "dokploy"], projects: []},
+  {id: "reference", title: "Other tools & references", priority: 7, keywords: [], projects: []}
+] -%}
+{%- set catalog = [] -%}
+{%- set candidates = project_snapshot.repositories | rejectattr("isPrivate") | rejectattr("isFork") | rejectattr("isArchived") -%}
+{%- for repo in candidates -%}
+  {%- set name = repo.name | lower -%}
+  {%- set description = description_overrides[name] or repo.description or "" -%}
+  {%- if repo.owner | lower == config.github.username | lower and repo.visibility != "PRIVATE" and description | trim and not name.startsWith(".") and not name.endsWith("-test") and not name.endsWith("-demo") and "-repro" not in name and name != "peon-hello-world" -%}
+    {%- set project = {
+      name: repo.name,
+      nameWithOwner: repo.nameWithOwner,
+      url: "https://github.com/" + repo.nameWithOwner,
+      description: description,
+      primaryLanguage: repo.primaryLanguage,
+      stars: repo.stars,
+      pushedAt: repo.pushedAt or repo.updatedAt,
+      search: (repo.name + " " + description + " " + (repo.topics | join(" "))) | lower
+    } -%}
+    {%- set ignored = catalog.push(project) -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set catalog = catalog | sort(true, false, "pushedAt") | sort(true, false, "stars") -%}
+{%- set assigned = [] -%}
+{%- for project in catalog -%}
+  {%- for group in project_groups | sort(false, false, "priority") -%}
+    {%- set matches = [] -%}
+    {%- for keyword in group.keywords -%}
+      {%- if keyword in project.search -%}{%- set ignored = matches.push(keyword) -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if project.nameWithOwner not in assigned and (matches | length > 0 or group.id == "reference") -%}
+      {%- if project.name | lower == "diffler" -%}
+        {%- set ignored = group.projects.unshift(project) -%}
+      {%- else -%}
+        {%- set ignored = group.projects.push(project) -%}
+      {%- endif -%}
+      {%- set ignored = assigned.push(project.nameWithOwner) -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- set populated_groups = [] -%}
+{%- for group in project_groups -%}{%- if group.projects | length > 0 -%}{%- set ignored = populated_groups.push(group) -%}{%- endif -%}{%- endfor -%}
 <!-- Generated from templates/profile.md.j2 with Diffler. -->
 <!-- profile-data: posts={{ posts | length }} community={{ community | length }} -->
+<!-- project-catalog: projects={{ catalog | length }} groups={{ populated_groups | length }} source={{ project_snapshot.generatedAt }} -->
 <div align="center">
 {{ card("readme", "Luke Parke's GitHub contributions, public repositories, and collection coverage", 560) }}
 
@@ -24,39 +85,36 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 
 ## Projects
 
-| Project | What I've been building |
-| --- | --- |
-| [Diffler](https://github.com/LukasParke/diffler) | GitHub statistics, profile READMEs, and animated cards—the tooling behind this profile. |
-| [Telescope](https://github.com/sailpoint-oss/telescope) | OpenAPI language tooling for VS Code and Cursor. |
-| [Arbiter](https://github.com/LukasParke/arbiter) | An API proxy that documents APIs as you use them. |
-| [Sveltey](https://github.com/LukasParke/Sveltey) | A SvelteKit SaaS starter template. |
+{{ catalog | length }} documented public projects, grouped automatically from repository names, descriptions, and topics.
+Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **{{ project_snapshot.generatedAt.slice(0, 10) }}**.
 
+{% for group in populated_groups %}
+### {{ group.title }}
+
+{{ project_table(group.projects.slice(0, 4)) }}
+{% if group.projects | length > 4 %}
 <details>
-<summary>More tools, templates, and SDKs</summary>
+<summary>More in {{ group.title }} ({{ group.projects | length - 4 }})</summary>
 
-### Svelte
-
-- [SvelteKit Adapters](https://github.com/LukasParke/sveltekit-adapters) — A collection of SvelteKit adapters.
-- [SvelteKit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) — A starter for Chrome extensions built with SvelteKit.
-
-### OpenAPI
-
-- [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) — A visual OpenAPI designer.
-- [OpenAPI Definition Generator](https://github.com/LukasParke/openapi-definition-generator) — Generate OpenAPI definitions from JSON response bodies.
-
-### Plex
-
-- [Plex API Spec](https://github.com/LukasParke/plex-api-spec) — A better Plex Media Server API specification.
-- [Plex Mintlify Docs](https://github.com/LukasParke/plex-mintlify-docs) — Documentation generated from the API specification.
-- SDKs: [JavaScript](https://github.com/LukasParke/plexjs), [Python](https://github.com/LukasParke/plexpy), [Go](https://github.com/LukasParke/plexgo), [Ruby](https://github.com/LukasParke/plexruby), [Swift](https://github.com/LukasParke/plexswift), [PHP](https://github.com/LukasParke/plexphp), [Java](https://github.com/LukasParke/plexjava), and [C#](https://github.com/LukasParke/plexcsharp).
-
-### Earlier GitHub profile tools
-
-- [Stats Action](https://github.com/LukasParke/stats-action) — The original stats collector.
-- [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) — The original animated profile cards.
-- [Stats](https://github.com/LukasParke/stats) — A template for collecting and publishing GitHub statistics.
+{{ project_table(group.projects.slice(4)) }}
 
 </details>
+{% endif %}
+{% endfor %}
+**Collaboration:** [Telescope](https://github.com/sailpoint-oss/telescope) — OpenAPI language tooling for VS Code and Cursor, with SailPoint OSS.
+
+<details>
+<summary>Browse the same projects by language</summary>
+
+{% for language, projects in repos_by_language(catalog) %}
+**{% if language == "Unknown" %}No primary language{% else %}{{ language }}{% endif %}** · {% for project in projects %}[{{ project.name }}]({{ project.url }}){% if not loop.last %} · {% endif %}{% endfor %}
+{% endfor %}
+
+</details>
+
+The catalog covers owned, non-fork, non-archived repositories with descriptions; Diffler has a local description fallback.
+Within each theme, stars lead and recent pushes break ties. Push dates include automated updates.
+[Browse all repositories →](https://github.com/{{ config.github.username }}?tab=repositories)
 
 ## Code & languages
 
