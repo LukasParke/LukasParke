@@ -14,7 +14,8 @@ assets:
   format: webp
 
 # Stats collection and card rendering run in LukasParke/stats and Diffler Pages.
-# This profile job refreshes the curated README, posts, and community links.
+# This profile job groups the public repository snapshot and refreshes posts
+# and community links through Diffler's prefetched template helpers.
 statsAction:
   includeTraffic: false
   includeRestRepoStats: false

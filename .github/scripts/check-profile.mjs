@@ -13,6 +13,18 @@ assert(sources, 'Missing data-source receipt');
 assert(Number(sources[1]) > 0, 'Dev.to returned no posts; retain the previously published profile');
 assert(Number(sources[2]) > 0, 'GitHub returned no community entries; retain the previously published profile');
 
+const catalog = markdown.match(/<!-- project-catalog: projects=(\d+) groups=(\d+) invalid=(\d+) source=([^ ]+) -->/);
+assert(catalog, 'Missing repository-catalog receipt');
+assert(Number(catalog[1]) > 0 && Number(catalog[2]) > 0, 'Repository snapshot produced an empty catalog');
+assert.equal(Number(catalog[3]), 0, 'A repository has multiple or unrecognized portfolio topics');
+assert(Number.isFinite(Date.parse(catalog[4])), 'Invalid repository snapshot date');
+const projects = [...markdown.matchAll(/<!-- project: ([^ ]+) -->/g)].map((match) => match[1]);
+assert.equal(projects.length, Number(catalog[1]), 'A project was dropped from the topic groups');
+assert.equal(new Set(projects).size, projects.length, 'A project was duplicated across topic groups');
+assert(projects.every((project) => /^LukasParke\/[A-Za-z0-9_.-]+$/i.test(project)), 'Catalog includes an unexpected repository owner');
+assert(projects.includes('LukasParke/diffler'), 'Diffler is missing from the catalog');
+assert(markdown.includes('Browse the same projects by language'), 'Language index is missing');
+
 const assets = [...markdown.matchAll(/(?:src|srcset)="([^"]+)"/g)].map((match) => new URL(match[1]));
 const expected = new Set(['readme.png', 'readme.webp', 'readme.gif', 'languages.png', 'languages.webp', 'languages.gif']);
 assert.equal(assets.length, expected.size, 'Expected PNG/WebP/GIF sources for both profile cards');
@@ -31,4 +43,4 @@ await Promise.all(assets.map(async (asset) => {
   assert.equal(response.headers.get('content-type')?.split(';')[0], `image/${format}`, `${asset.pathname} has an unexpected content type`);
 }));
 
-console.log(`Profile validated: ${sources[1]} posts, ${sources[2]} community links, and ${assets.length} live card assets.`);
+console.log(`Profile validated: ${projects.length} projects in ${catalog[2]} topic groups, ${sources[1]} posts, ${sources[2]} community links, and ${assets.length} live card assets.`);

@@ -1,0 +1,700 @@
+{
+  "reviewedAt": "2026-09-10",
+  "owner": "LukasParke",
+  "groups": [
+    {
+      "topic": "portfolio-openapi",
+      "title": "API engineering & OpenAPI"
+    },
+    {
+      "topic": "portfolio-agents",
+      "title": "Agents & AI tools"
+    },
+    {
+      "topic": "portfolio-plex",
+      "title": "Plex ecosystem"
+    },
+    {
+      "topic": "portfolio-sdks",
+      "title": "Service SDKs & integrations"
+    },
+    {
+      "topic": "portfolio-web",
+      "title": "Web & app foundations"
+    },
+    {
+      "topic": "portfolio-developer-tools",
+      "title": "Developer tools & automation"
+    },
+    {
+      "topic": "portfolio-homelab",
+      "title": "Self-hosting & homelab"
+    },
+    {
+      "topic": "portfolio-devices",
+      "title": "Devices & interoperability"
+    },
+    {
+      "topic": "portfolio-identity",
+      "title": "Identity & SailPoint"
+    },
+    {
+      "topic": "portfolio-research",
+      "title": "Research, datasets & references"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "Anchor",
+      "topic": "portfolio-identity",
+      "featured": true,
+      "purpose": "Community Chrome extension for IdentityNow administration/support workflows.",
+      "evidence": "[README](https://github.com/LukasParke/Anchor/blob/main/README.md)"
+    },
+    {
+      "name": "aperture",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "OpenAPI JSON/YAML IntelliSense, validation, custom lint rules, and multi-file reference awareness in VS Code.",
+      "evidence": "[README](https://github.com/LukasParke/aperture/blob/main/README.md)"
+    },
+    {
+      "name": "arbiter",
+      "topic": "portfolio-openapi",
+      "featured": true,
+      "purpose": "API traffic proxy, capture/replay, and inferred OpenAPI/HAR documentation; TypeScript package and staged Rust implementation.",
+      "evidence": "[README](https://github.com/LukasParke/arbiter/blob/main/README.md)"
+    },
+    {
+      "name": "archives-of-nethys-scraper",
+      "topic": "portfolio-research",
+      "featured": true,
+      "purpose": "Retrieves Archives of Nethys game-reference data from Elasticsearch and exports categorized/raw/parsed JSON datasets.",
+      "evidence": "[scraper](https://github.com/LukasParke/archives-of-nethys-scraper/blob/main/scraper.ts), [category config](https://github.com/LukasParke/archives-of-nethys-scraper/blob/main/config.ts)"
+    },
+    {
+      "name": "baton",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "“Hooky” webhook capture, inspection, destination management, and replay prototype.",
+      "evidence": "[UI](https://github.com/LukasParke/baton/blob/main/src/routes/%2Bpage.svelte), [schema](https://github.com/LukasParke/baton/blob/main/prisma/schema.prisma)"
+    },
+    {
+      "name": "capi",
+      "topic": "portfolio-devices",
+      "featured": true,
+      "purpose": "HDMI-CEC device control via HTTP/MQTT, live events, and a web dashboard for Pi/ARM devices.",
+      "evidence": "[README](https://github.com/LukasParke/capi/blob/main/README.md)"
+    },
+    {
+      "name": "charte.rs",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Extracts OpenAPI contracts and provenance-bearing facts from web-framework source code.",
+      "evidence": "[README](https://github.com/LukasParke/charte.rs/blob/main/README.md), [library](https://github.com/LukasParke/charte.rs/blob/main/src/lib.rs)"
+    },
+    {
+      "name": "Coolify-TypeScript-SDK",
+      "topic": "portfolio-sdks",
+      "featured": true,
+      "purpose": "Generated typed Coolify API client; README retains a publishing/setup qualification.",
+      "evidence": "[README](https://github.com/LukasParke/Coolify-TypeScript-SDK/blob/main/README.md)"
+    },
+    {
+      "name": "dfx",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "Cross-platform CLI to inspect, validate, and change default application/file/URL associations.",
+      "evidence": "[README](https://github.com/LukasParke/dfx/blob/main/README.md)"
+    },
+    {
+      "name": "diffler",
+      "topic": "portfolio-developer-tools",
+      "featured": true,
+      "purpose": "GitHub statistics collection, profile README generation, shared schemas, and animated profile-card rendering.",
+      "evidence": "[README](https://github.com/LukasParke/diffler/blob/main/README.md)"
+    },
+    {
+      "name": "discourse-api-spec",
+      "topic": "portfolio-sdks",
+      "featured": false,
+      "purpose": "Modified Discourse API contract used directly by the `discoursejs` generation workflow.",
+      "evidence": "[spec](https://github.com/LukasParke/discourse-api-spec/blob/main/discourse-api-spec.yaml), [consumer workflow](https://github.com/LukasParke/discoursejs/blob/main/.github/workflows/speakeasy_sdk_generation.yml)"
+    },
+    {
+      "name": "discoursejs",
+      "topic": "portfolio-sdks",
+      "featured": true,
+      "purpose": "TypeScript/JavaScript Discourse API client generated from the associated contract.",
+      "evidence": "[README](https://github.com/LukasParke/discoursejs/blob/main/README.md), [generation](https://github.com/LukasParke/discoursejs/blob/main/.github/workflows/speakeasy_sdk_generation.yml)"
+    },
+    {
+      "name": "Dokploy-ts-sdk",
+      "topic": "portfolio-sdks",
+      "featured": true,
+      "purpose": "Generated TypeScript Dokploy API client; publishing/production readiness remains qualified in its README.",
+      "evidence": "[README](https://github.com/LukasParke/Dokploy-ts-sdk/blob/main/README.md), [package](https://github.com/LukasParke/Dokploy-ts-sdk/blob/main/package.json)"
+    },
+    {
+      "name": "ex-caliber",
+      "topic": "portfolio-agents",
+      "featured": true,
+      "purpose": "Native Excalidraw-compatible whiteboard with MCP scene editing and shared human/agent undo history.",
+      "evidence": "[README](https://github.com/LukasParke/ex-caliber/blob/main/README.md), [MCP module](https://github.com/LukasParke/ex-caliber/blob/main/crates/xc-mcp/src/lib.rs)"
+    },
+    {
+      "name": "github-stats-api",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "Remotion statistics-card service with Hono API, GitHub App integration, Redis jobs, and MinIO storage.",
+      "evidence": "[README](https://github.com/LukasParke/github-stats-api/blob/main/README.md)"
+    },
+    {
+      "name": "github-stats-remotion",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "Reusable renderer/publishing pipeline for animated GitHub profile statistics cards.",
+      "evidence": "[README](https://github.com/LukasParke/github-stats-remotion/blob/main/README.md)"
+    },
+    {
+      "name": "gossip",
+      "topic": "portfolio-developer-tools",
+      "featured": true,
+      "purpose": "Go framework for building LSP servers with documents, transports, middleware, and tree-sitter integration.",
+      "evidence": "[package docs](https://github.com/LukasParke/gossip/blob/main/doc.go), [README](https://github.com/LukasParke/gossip/blob/main/README.md)"
+    },
+    {
+      "name": "hive",
+      "topic": "portfolio-homelab",
+      "featured": true,
+      "purpose": "Self-hosted Docker Swarm application deployment platform with control plane, per-node agents, and build infrastructure.",
+      "evidence": "[README](https://github.com/LukasParke/hive/blob/main/README.md), [architecture](https://github.com/LukasParke/hive/blob/main/docs/architecture/overview.md)"
+    },
+    {
+      "name": "home-ops",
+      "topic": "portfolio-homelab",
+      "featured": true,
+      "purpose": "Customized Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks.",
+      "evidence": "[application inventory](https://github.com/LukasParke/home-ops/blob/main/kubernetes/apps/default/kustomization.yaml), [storage runbook](https://github.com/LukasParke/home-ops/blob/main/kubernetes/docs/storage-nfs.md)"
+    },
+    {
+      "name": "http-ws-reference",
+      "topic": "portfolio-research",
+      "featured": false,
+      "purpose": "Reference comparing WebSocket close codes with approximate HTTP status analogues.",
+      "evidence": "[README](https://github.com/LukasParke/http-ws-reference/blob/main/README.md)"
+    },
+    {
+      "name": "jsdoc-cheatsheet",
+      "topic": "portfolio-research",
+      "featured": false,
+      "purpose": "Interactive JSDoc tag/syntax/example reference application.",
+      "evidence": "[reference data](https://github.com/LukasParke/jsdoc-cheatsheet/blob/main/lib/jsdoc-data.ts), [application pages](https://github.com/LukasParke/jsdoc-cheatsheet/tree/main/app)"
+    },
+    {
+      "name": "navigator",
+      "topic": "portfolio-openapi",
+      "featured": true,
+      "purpose": "Shared Go OpenAPI parsing, indexing, workspace graphs, and cross-file reference resolution.",
+      "evidence": "[package docs](https://github.com/LukasParke/navigator/blob/main/doc.go)"
+    },
+    {
+      "name": "omarchy-dream-theme",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "Installable Omarchy workstation theme spanning terminals, editors, compositor, and GTK apps.",
+      "evidence": "[README](https://github.com/LukasParke/omarchy-dream-theme/blob/main/README.md), [theme files](https://github.com/LukasParke/omarchy-dream-theme/tree/main)"
+    },
+    {
+      "name": "openapi-definition-generator",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Browser tool converting JSON API response bodies into OpenAPI schema definitions.",
+      "evidence": "[README](https://github.com/LukasParke/openapi-definition-generator/blob/main/README.md)"
+    },
+    {
+      "name": "openapi-types",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Versioned TypeScript OpenAPI types and generated JSON schemas for tool builders.",
+      "evidence": "[README](https://github.com/LukasParke/openapi-types/blob/main/README.md)"
+    },
+    {
+      "name": "OpenAPI.gg",
+      "topic": "portfolio-openapi",
+      "featured": true,
+      "purpose": "Browser-based OpenAPI editor with local document storage, validation, import/export, and documentation preview.",
+      "evidence": "[README](https://github.com/LukasParke/OpenAPI.gg/blob/main/README.md)"
+    },
+    {
+      "name": "paperclip-coolify",
+      "topic": "portfolio-homelab",
+      "featured": true,
+      "purpose": "Source-built Paperclip deployment/image packaging for Coolify with bundled agent CLIs and update automation.",
+      "evidence": "[README](https://github.com/LukasParke/paperclip-coolify/blob/main/README.md), [Dockerfile](https://github.com/LukasParke/paperclip-coolify/blob/main/Dockerfile)"
+    },
+    {
+      "name": "pi-extensions",
+      "topic": "portfolio-agents",
+      "featured": true,
+      "purpose": "Canonical monorepo of individually published Pi tools, integrations, subagents, workflows, and UX extensions.",
+      "evidence": "[README](https://github.com/LukasParke/pi-extensions/blob/main/README.md), [migration](https://github.com/LukasParke/pi-extensions/blob/main/MIGRATION.md)"
+    },
+    {
+      "name": "plex-api-spec",
+      "topic": "portfolio-plex",
+      "featured": true,
+      "purpose": "Community Plex Media Server/plex.tv API contract used by the Speakeasy SDK generation chain.",
+      "evidence": "[README](https://github.com/LukasParke/plex-api-spec/blob/main/README.md), [workflow](https://github.com/LukasParke/plex-api-spec/blob/main/.speakeasy/workflow.yaml)"
+    },
+    {
+      "name": "plex-docs",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Earlier Docusaurus API documentation, including original conversion work and retained legacy Plex documentation.",
+      "evidence": "[author's announcement](https://github.com/LukasParke/plex-docs/blob/main/blog/Announcment.md), [legacy docs](https://github.com/LukasParke/plex-docs/tree/main/docs/legacy/plex)"
+    },
+    {
+      "name": "plex-mintlify-docs",
+      "topic": "portfolio-plex",
+      "featured": true,
+      "purpose": "Current public PlexAPI.dev documentation frontend and code-sample-rich API reference generation.",
+      "evidence": "[README](https://github.com/LukasParke/plex-mintlify-docs/blob/main/README.md), [live site](https://plexapi.dev)"
+    },
+    {
+      "name": "plex-postman",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated Postman collection for exercising Plex API endpoints.",
+      "evidence": "[collection](https://github.com/LukasParke/plex-postman/blob/main/plex_postman_collection.json), [generation source](https://github.com/LukasParke/plex-postman/blob/main/.speakeasy/workflow.yaml)"
+    },
+    {
+      "name": "plex-sdk-docs",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated multi-language Plex SDK reference site covering Python, TypeScript, Go, and curl.",
+      "evidence": "[generation workflow](https://github.com/LukasParke/plex-sdk-docs/blob/main/.github/workflows/generate-docs.yaml), [language handling](https://github.com/LukasParke/plex-sdk-docs/blob/main/content/languages.tsx)"
+    },
+    {
+      "name": "plexapi-dev-docs",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "VitePress documentation, JSON API contract, validation tooling, and TypeScript/Python/Go SDK monorepo.",
+      "evidence": "[README](https://github.com/LukasParke/plexapi-dev-docs/blob/main/README.md), [contract decision](https://github.com/LukasParke/plexapi-dev-docs/blob/main/docs/design/api-contract.md)"
+    },
+    {
+      "name": "plexcsharp",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated C#/.NET Plex API SDK.",
+      "evidence": "[README and NuGet usage](https://github.com/LukasParke/plexcsharp/blob/main/README.md)"
+    },
+    {
+      "name": "plexgo",
+      "topic": "portfolio-plex",
+      "featured": true,
+      "purpose": "Generated Go Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexgo/blob/main/README.md)"
+    },
+    {
+      "name": "plexjava",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated Java Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexjava/blob/main/README.md)"
+    },
+    {
+      "name": "plexjs",
+      "topic": "portfolio-plex",
+      "featured": true,
+      "purpose": "Generated TypeScript/JavaScript Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexjs/blob/main/README.md), [workflow](https://github.com/LukasParke/plexjs/blob/main/.speakeasy/workflow.yaml)"
+    },
+    {
+      "name": "plexphp",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated PHP Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexphp/blob/main/README.md)"
+    },
+    {
+      "name": "plexpy",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated Python Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexpy/blob/main/README.md)"
+    },
+    {
+      "name": "plexruby",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Generated Ruby Plex API SDK.",
+      "evidence": "[README](https://github.com/LukasParke/plexruby/blob/main/README.md)"
+    },
+    {
+      "name": "pocketbase",
+      "topic": "portfolio-homelab",
+      "featured": false,
+      "purpose": "Community PocketBase container-image packaging and scheduled upstream-release tracking.",
+      "evidence": "[README](https://github.com/LukasParke/pocketbase/blob/main/README.md), [build/update workflow](https://github.com/LukasParke/pocketbase/blob/main/.github/workflows/build-and-push.yaml)"
+    },
+    {
+      "name": "prettier-plugin-openapi",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Prettier formatting and key ordering for monolithic and modular OpenAPI JSON/YAML.",
+      "evidence": "[README](https://github.com/LukasParke/prettier-plugin-openapi/blob/main/README.md)"
+    },
+    {
+      "name": "Prowlarr-TS-SDK",
+      "topic": "portfolio-sdks",
+      "featured": true,
+      "purpose": "Generated TypeScript Prowlarr client with an additional MCP server interface.",
+      "evidence": "[README](https://github.com/LukasParke/Prowlarr-TS-SDK/blob/main/README.md), [package](https://github.com/LukasParke/Prowlarr-TS-SDK/blob/main/package.json)"
+    },
+    {
+      "name": "pypistats.dev",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "PyPI download-analytics service/UI using on-demand BigQuery ingestion, PostgreSQL, Redis, and a JSON API.",
+      "evidence": "[README](https://github.com/LukasParke/pypistats.dev/blob/main/README.md)"
+    },
+    {
+      "name": "qwen38-27b-5090",
+      "topic": "portfolio-research",
+      "featured": true,
+      "purpose": "Local LLM serving/optimization research with benchmark campaigns, patches, and measurement tooling.",
+      "evidence": "[README](https://github.com/LukasParke/qwen38-27b-5090/blob/main/README.md), [harness](https://github.com/LukasParke/qwen38-27b-5090/blob/main/tools/harness.py)"
+    },
+    {
+      "name": "relay",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Local-first webhook/WebSocket capture, inspection, signed replay, and templating workbench.",
+      "evidence": "[README](https://github.com/LukasParke/relay/blob/main/README.md), [engine](https://github.com/LukasParke/relay/blob/main/crates/engine/src/lib.rs)"
+    },
+    {
+      "name": "Rivet",
+      "topic": "portfolio-homelab",
+      "featured": true,
+      "purpose": "Self-hosted media discovery, acquisition, verification, and import orchestration through external clients.",
+      "evidence": "[README](https://github.com/LukasParke/Rivet/blob/main/README.md)"
+    },
+    {
+      "name": "rumor",
+      "topic": "portfolio-developer-tools",
+      "featured": true,
+      "purpose": "Rust LSP-server framework port of Gossip.",
+      "evidence": "[README](https://github.com/LukasParke/rumor/blob/main/README.md)"
+    },
+    {
+      "name": "scalar-cheatsheet",
+      "topic": "portfolio-research",
+      "featured": false,
+      "purpose": "YAML block-scalar/Markdown rendering reference with OpenAPI documentation examples.",
+      "evidence": "[README](https://github.com/LukasParke/scalar-cheatsheet/blob/main/README.md)"
+    },
+    {
+      "name": "slinky",
+      "topic": "portfolio-developer-tools",
+      "featured": true,
+      "purpose": "Repository dead-link checker shipped as CLI, TUI/watch workflow, and GitHub Action.",
+      "evidence": "[README](https://github.com/LukasParke/slinky/blob/main/README.md)"
+    },
+    {
+      "name": "smelt",
+      "topic": "portfolio-research",
+      "featured": true,
+      "purpose": "Rust model-format and inference-engine experiments, measurement results, and a larger engine design.",
+      "evidence": "[plan](https://github.com/LukasParke/smelt/blob/main/PLAN.md), [experimental implementation/results](https://github.com/LukasParke/smelt/blob/main/docs/experiments/model-lab-results.md)"
+    },
+    {
+      "name": "stats-action",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "Reusable GitHub statistics collector with caching, bounded collection, and resumable backfill.",
+      "evidence": "[README](https://github.com/LukasParke/stats-action/blob/main/README.md)"
+    },
+    {
+      "name": "suspect",
+      "topic": "portfolio-openapi",
+      "featured": true,
+      "purpose": "OpenAPI/Arazzo/Overlay parsing, validation, linting, LSP, contract testing, and API gateway tooling.",
+      "evidence": "[README](https://github.com/LukasParke/suspect/blob/main/README.md), [platform README](https://github.com/LukasParke/suspect/blob/main/README.platform.md)"
+    },
+    {
+      "name": "sveltekit-adapters",
+      "topic": "portfolio-web",
+      "featured": true,
+      "purpose": "Reusable Appwrite and Electron adapters plus integration examples.",
+      "evidence": "[README](https://github.com/LukasParke/sveltekit-adapters/blob/main/README.md)"
+    },
+    {
+      "name": "sveltekit-electron",
+      "topic": "portfolio-web",
+      "featured": true,
+      "purpose": "Reusable reference integration of an adapter-node SvelteKit app inside Electron/Forge.",
+      "evidence": "[README](https://github.com/LukasParke/sveltekit-electron/blob/main/README.md)"
+    },
+    {
+      "name": "sveltekit-extension-template",
+      "topic": "portfolio-web",
+      "featured": true,
+      "purpose": "Deliberately reusable Chrome extension foundation with SvelteKit, Skeleton, and extension build configuration.",
+      "evidence": "[README](https://github.com/LukasParke/sveltekit-extension-template/blob/main/README.md)"
+    },
+    {
+      "name": "Sveltey",
+      "topic": "portfolio-web",
+      "featured": true,
+      "purpose": "Reusable SvelteKit SaaS starter with Supabase authentication, Stripe subscriptions, content, and email integration.",
+      "evidence": "[README features](https://github.com/LukasParke/Sveltey/blob/main/README.md#-features)"
+    },
+    {
+      "name": "swarm",
+      "topic": "portfolio-homelab",
+      "featured": false,
+      "purpose": "Concrete HA Docker Swarm homelab service stacks and GitOps deployment runbook.",
+      "evidence": "[DEPLOY.md](https://github.com/LukasParke/swarm/blob/main/DEPLOY.md), [stack files](https://github.com/LukasParke/swarm/tree/main)"
+    },
+    {
+      "name": "theschemagen",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Go library converting JSON values into OpenAPI schema structures.",
+      "evidence": "[README](https://github.com/LukasParke/theschemagen/blob/main/README.md), [implementation](https://github.com/LukasParke/theschemagen/blob/main/main.go)"
+    },
+    {
+      "name": "toasty",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "Desktop OpenAPI editor with normalized references, multi-file workspaces, relationship visualization, and import/export.",
+      "evidence": "[README](https://github.com/LukasParke/toasty/blob/main/README.md)"
+    },
+    {
+      "name": "tree-sitter-openapi",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "OpenAPI-aware YAML and JSON tree-sitter grammars, including fragments and Markdown injections.",
+      "evidence": "[README](https://github.com/LukasParke/tree-sitter-openapi/blob/main/README.md), [package files](https://github.com/LukasParke/tree-sitter-openapi/blob/main/package.json)"
+    },
+    {
+      "name": "tui-patterns",
+      "topic": "portfolio-research",
+      "featured": true,
+      "purpose": "Comparative layout/design/UX research on twelve AI coding-agent terminal interfaces.",
+      "evidence": "[README](https://github.com/LukasParke/tui-patterns/blob/main/README.md), [analysis](https://github.com/LukasParke/tui-patterns/blob/main/analysis/index.md)"
+    },
+    {
+      "name": "ubiquitous-journey",
+      "topic": "portfolio-research",
+      "featured": false,
+      "purpose": "GitHub Universe 2023 notes and examples covering dev containers, code tours, issue forms, and contribution workflows.",
+      "evidence": "[README](https://github.com/LukasParke/ubiquitous-journey/blob/main/README.md), [topic folders](https://github.com/LukasParke/ubiquitous-journey/tree/main)"
+    },
+    {
+      "name": "usage-statistics",
+      "topic": "portfolio-developer-tools",
+      "featured": false,
+      "purpose": "GitHub Action collecting package/release download statistics across NPM, GitHub, PyPI, and PowerShell.",
+      "evidence": "[README](https://github.com/LukasParke/usage-statistics/blob/main/README.md), [Action contract](https://github.com/LukasParke/usage-statistics/blob/main/action.yml)"
+    },
+    {
+      "name": "VA-Log-Parser",
+      "topic": "portfolio-identity",
+      "featured": true,
+      "purpose": "CLI/Node module parsing SailPoint virtual-appliance logs for IdentityNow support.",
+      "evidence": "[README](https://github.com/LukasParke/VA-Log-Parser/blob/main/README.md)"
+    },
+    {
+      "name": "varsity",
+      "topic": "portfolio-openapi",
+      "featured": false,
+      "purpose": "JavaScript/TypeScript OpenAPI parsing, validation, reference analysis, reporting, and per-tag partitioning toolkit.",
+      "evidence": "[README](https://github.com/LukasParke/varsity/blob/main/README.md)"
+    },
+    {
+      "name": "volar-docs",
+      "topic": "portfolio-research",
+      "featured": false,
+      "purpose": "Practical Volar architecture, language-server integration, plugin-authoring, and debugging documentation.",
+      "evidence": "[README and guide index](https://github.com/LukasParke/volar-docs/blob/main/README.md)"
+    },
+    {
+      "name": "Warden",
+      "topic": "portfolio-plex",
+      "featured": false,
+      "purpose": "Earlier desktop/web Plex music-client prototype with authentication and library UI; avoid promising complete playback.",
+      "evidence": "[renderer source](https://github.com/LukasParke/Warden/blob/main/src/renderer/App.jsx)"
+    },
+    {
+      "name": "wave3-research",
+      "topic": "portfolio-devices",
+      "featured": true,
+      "purpose": "Wave:3 USB protocol investigation and native Linux daemon/CLI/GUI for device interoperability.",
+      "evidence": "[README](https://github.com/LukasParke/wave3-research/blob/main/README.md)"
+    },
+    {
+      "name": "wikillm-api",
+      "topic": "portfolio-agents",
+      "featured": true,
+      "purpose": "Markdown-backed knowledge/search/MCP service with cited answers and agent memory/session functionality.",
+      "evidence": "[README](https://github.com/LukasParke/wikillm-api/blob/main/README.md)"
+    },
+    {
+      "name": "yoto-fingerprint",
+      "topic": "portfolio-devices",
+      "featured": true,
+      "purpose": "Yoto NFC-card protocol research, technical specification, and card-analysis tools.",
+      "evidence": "[README](https://github.com/LukasParke/yoto-fingerprint/blob/main/README.md)"
+    },
+    {
+      "name": "yotocol",
+      "topic": "portfolio-devices",
+      "featured": false,
+      "purpose": "NFC card-reader CLI backing up Yoto card records and URLs into local JSON.",
+      "evidence": "[implementation](https://github.com/LukasParke/yotocol/blob/main/index.js), [package](https://github.com/LukasParke/yotocol/blob/main/package.json)"
+    },
+    {
+      "name": "yoto_api",
+      "topic": "portfolio-devices",
+      "featured": true,
+      "purpose": "Yoto player/card API and live MQTT integration, with Python/TypeScript/web/Home Assistant surfaces.",
+      "evidence": "[README](https://github.com/LukasParke/yoto_api/blob/main/README.md), [TypeScript SDK](https://github.com/LukasParke/yoto_api/blob/main/yoto-typescript-sdk/README.md), [HA integration](https://github.com/LukasParke/yoto_api/blob/main/yoto-ha/README.md), [web UI](https://github.com/LukasParke/yoto_api/blob/main/yoto-webui/package.json)"
+    }
+  ],
+  "exclusions": [
+    {
+      "name": ".trunk",
+      "reason": "Trunk GitHub integration configuration generated from the upstream template.",
+      "evidence": "[README](https://github.com/LukasParke/.trunk/blob/main/README.md)"
+    },
+    {
+      "name": "appwrite-starter-function",
+      "reason": "Bun-versus-Node Appwrite load-test functions and Artillery fixtures.",
+      "evidence": "[Bun function](https://github.com/LukasParke/appwrite-starter-function/blob/main/functions/bun/src/main.ts), [load test](https://github.com/LukasParke/appwrite-starter-function/blob/main/bun-load-test.yaml)"
+    },
+    {
+      "name": "Awesome-GitHub-Profile",
+      "reason": "Demonstration profile composed from GitHub automation output; not a separate automation implementation.",
+      "evidence": "[README](https://github.com/LukasParke/Awesome-GitHub-Profile/blob/main/README.md)"
+    },
+    {
+      "name": "balatrix",
+      "reason": "Uncustomized electron-vite/Svelte starter screen and IPC demonstration.",
+      "evidence": "[App.svelte](https://github.com/LukasParke/balatrix/blob/main/src/renderer/src/App.svelte), [package](https://github.com/LukasParke/balatrix/blob/main/package.json)"
+    },
+    {
+      "name": "chapterize",
+      "reason": "Repository reservation with a heading-only README, license, and gitignore; no implementation.",
+      "evidence": "[tree](https://github.com/LukasParke/chapterize/tree/main), [README](https://github.com/LukasParke/chapterize/blob/main/README.md)"
+    },
+    {
+      "name": "dev-extension-template-demo",
+      "reason": "Demo instance of the extension starter, showing the Skeleton welcome screen. Prefer the reusable template repository.",
+      "evidence": "[README](https://github.com/LukasParke/dev-extension-template-demo/blob/main/README.md), [page](https://github.com/LukasParke/dev-extension-template-demo/blob/main/src/routes/%2Bpage.svelte)"
+    },
+    {
+      "name": "github-stats",
+      "reason": "Personal deployment/copy of jstrieb's statistics visualization project, with generated-image updates.",
+      "evidence": "[upstream-attributed README](https://github.com/LukasParke/github-stats/blob/master/README.md), [generated update](https://github.com/LukasParke/github-stats/commit/83872dda639227a93557926e531a81c2a874b6fd)"
+    },
+    {
+      "name": "idn-admin-console",
+      "reason": "Historical IdentityNow admin console snapshot; same HEAD commit exists in SailPoint's current upstream toolbox. Prefer upstream contribution credit.",
+      "evidence": "[README](https://github.com/LukasParke/idn-admin-console/blob/main/README.md), [same upstream commit](https://github.com/sailpoint-oss/isc-community-toolbox/commit/50d49db20c29d2eb49f97527bc62738e3f843d61)"
+    },
+    {
+      "name": "kindle-chess",
+      "reason": "Empty repository; no chess implementation to evaluate.",
+      "evidence": "[repository](https://github.com/LukasParke/kindle-chess)"
+    },
+    {
+      "name": "LukasParke",
+      "reason": "The profile README, template, and automation configuration being curated.",
+      "evidence": "[README](https://github.com/LukasParke/LukasParke/blob/main/README.md)"
+    },
+    {
+      "name": "LukeHagar.com",
+      "reason": "Earlier personal portfolio website, rather than a reusable product.",
+      "evidence": "[portfolio page](https://github.com/LukasParke/LukeHagar.com/blob/main/src/routes/%2Bpage.svelte)"
+    },
+    {
+      "name": "parke.dev",
+      "reason": "Personal blog and portfolio website monorepo, with deployment delegated to `home-ops`.",
+      "evidence": "[README](https://github.com/LukasParke/parke.dev/blob/main/README.md)"
+    },
+    {
+      "name": "peon-hello-world",
+      "reason": "Minimal deployment smoke-test service exposing a page and health endpoint.",
+      "evidence": "[README](https://github.com/LukasParke/peon-hello-world/blob/main/README.md)"
+    },
+    {
+      "name": "pi-subagent",
+      "reason": "Original isolated-subagent extension, explicitly migrated into `pi-extensions`; duplicate historical source location.",
+      "evidence": "[README](https://github.com/LukasParke/pi-subagent/blob/main/README.md), [canonical-source migration](https://github.com/LukasParke/pi-extensions/blob/main/MIGRATION.md)"
+    },
+    {
+      "name": "plex-api-collection",
+      "reason": "Older Postman export/schema bundle overlapping the later `plex-postman` deliverable.",
+      "evidence": "[collection](https://github.com/LukasParke/plex-api-collection/blob/main/postman/collections/Plex%20Media%20Server.json), [tree](https://github.com/LukasParke/plex-api-collection/tree/main)"
+    },
+    {
+      "name": "plex-api-oauth",
+      "reason": "Legacy Plex JavaScript/OAuth helper explicitly deprecated in favor of `plexjs`.",
+      "evidence": "[deprecation notice](https://github.com/LukasParke/plex-api-oauth/blob/main/README.md)"
+    },
+    {
+      "name": "plexswift",
+      "reason": "Archived Swift Plex SDK; recommend historical rather than default portfolio listing.",
+      "evidence": "[README](https://github.com/LukasParke/plexswift/blob/main/README.md), [archived repository](https://github.com/LukasParke/plexswift)"
+    },
+    {
+      "name": "plexterraform",
+      "reason": "Generated Terraform provider scaffold whose resource and data-source registration lists are both empty.",
+      "evidence": "[provider implementation](https://github.com/LukasParke/plexterraform/blob/main/internal/provider/provider.go)"
+    },
+    {
+      "name": "redocly-split-repro",
+      "reason": "Minimal Redocly split bug reproduction with input/output fixtures.",
+      "evidence": "[repro makefile](https://github.com/LukasParke/redocly-split-repro/blob/main/makefile)"
+    },
+    {
+      "name": "sagivo-blog",
+      "reason": "Imported Sagiv Ofek blog with Luke's spelling/grammar edits, rather than Luke's original site/product.",
+      "evidence": "[site identity](https://github.com/LukasParke/sagivo-blog/blob/gh-pages/_config.yml), [contribution](https://github.com/LukasParke/sagivo-blog/commit/a9f179f9e9b3f97af4a07591898367de8e9a34bb)"
+    },
+    {
+      "name": "stats",
+      "reason": "Generated personal statistics dataset/cache and its consuming workflow, rather than the reusable collector.",
+      "evidence": "[Readme](https://github.com/LukasParke/stats/blob/main/Readme.md)"
+    },
+    {
+      "name": "subdomain-test",
+      "reason": "Minimal SvelteKit subdomain-parsing/deployment experiment.",
+      "evidence": "[request hook](https://github.com/LukasParke/subdomain-test/blob/main/src/hooks.server.ts), [README](https://github.com/LukasParke/subdomain-test/blob/main/README.md)"
+    },
+    {
+      "name": "sui",
+      "reason": "Empty repository despite the planned self-hosted-homepage description.",
+      "evidence": "[repository](https://github.com/LukasParke/sui)"
+    },
+    {
+      "name": "svelte-min-repro",
+      "reason": "Minimal Svelte binding/slot reproduction using a month counter.",
+      "evidence": "[page](https://github.com/LukasParke/svelte-min-repro/blob/main/src/routes/%2Bpage.svelte)"
+    },
+    {
+      "name": "tmi",
+      "reason": "Bubble Tea grocery-list example under an intended music-project name; no music implementation in reviewed source.",
+      "evidence": "[TUI](https://github.com/LukasParke/tmi/blob/main/root/tui/tui.go), [random items](https://github.com/LukasParke/tmi/blob/main/root/tui/randomitems.go)"
+    }
+  ],
+  "note": "Point-in-time review ledger. Rendering reads actual GitHub topics from the public stats snapshot, not this membership list.",
+  "appliedAt": "2026-09-10T16:25:17.665Z",
+  "statsRefresh": {
+    "commit": "0ef315c8ebc25e4e34832f7fc372c395a0ad491c",
+    "run": "https://github.com/LukasParke/stats/actions/runs/34501979204",
+    "generatedAt": "2026-09-10T16:33:14.122Z"
+  }
+}

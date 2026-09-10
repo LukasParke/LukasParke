@@ -5,10 +5,96 @@
   <img src="{{ profile_asset(id, {baseUrl: config.assets.baseUrl, format: 'gif'}) }}" width="{{ width }}" alt="{{ description }}">
 </picture>
 {%- endmacro -%}
+{%- macro project_table(items) -%}
+| Project | Language | Stars / last push |
+| --- | --- | --- |
+{% for project in items -%}
+| <!-- project: {{ project.nameWithOwner }} -->[**{{ project.name | escape }}**]({{ project.url }}){% if project.description %}<br>{{ project.description | replace("\n", " ") | replace("\r", " ") | truncate(150) | escape | replace("|", "&#124;") }}{% endif %} | {{ project.primaryLanguage or "—" }} | ★ {{ project.stars }}<br>{% if project.pushedAt %}{{ project.pushedAt.slice(0, 10) }}{% else %}—{% endif %} |
+{% endfor -%}
+{%- endmacro -%}
 {%- set posts = devto_posts("lukeparke", 5) -%}
 {%- set community = fetch_json("https://api.github.com/users/LukasParke/followers?per_page=100").slice(-20) | reverse -%}
+{%- set project_snapshot = fetch_json("https://raw.githubusercontent.com/LukasParke/stats/main/github-user-stats.json") -%}
+{%- set description_overrides = {
+  diffler: "GitHub statistics, profile READMEs, and animated cards—the tooling behind this profile.",
+  baton: "Webhook capture, inspection, destination management, and replay prototype.",
+  "charte.rs": "Extract OpenAPI contracts and source provenance from web-framework code.",
+  "dokploy-ts-sdk": "Generated TypeScript client for the Dokploy API.",
+  "github-stats-api": "GitHub stats-card service using Remotion, Hono, Redis jobs, and MinIO storage.",
+  gossip: "Go framework for language servers: documents, transports, middleware, and tree-sitter integration.",
+  hive: "Self-hosted Docker Swarm PaaS with a Go control plane, builds, and per-node agents.",
+  "home-ops": "Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks.",
+  "jsdoc-cheatsheet": "Interactive reference for JSDoc tags, syntax, and examples.",
+  navigator: "Go library for parsing, indexing, and resolving references across OpenAPI workspaces.",
+  "omarchy-dream-theme": "Installable Omarchy theme for terminals, editors, GTK apps, and the compositor.",
+  "paperclip-coolify": "Coolify deployment and image packaging for Paperclip, with agent CLIs and update automation.",
+  "prowlarr-ts-sdk": "TypeScript Prowlarr client with an optional MCP server interface.",
+  relay: "Local-first webhook/WebSocket capture, inspection, and signed-replay workbench.",
+  rivet: "Self-hosted media discovery, acquisition, verification, and import orchestration.",
+  smelt: "Rust model-format and inference-engine experiments, with measurement results.",
+  suspect: "API engineering toolkit for OpenAPI, Arazzo, Overlay, validation, linting, LSP, and contract testing.",
+  "tree-sitter-openapi": "OpenAPI-aware YAML and JSON Tree-sitter grammars, fragments, and Markdown injections.",
+  "usage-statistics": "GitHub Action for download statistics across npm, GitHub, PyPI, and PowerShell.",
+  "wikillm-api": "Markdown-backed knowledge/search service with cited answers, MCP, and agent memory."
+} -%}
+{%- set project_groups = [
+  {id: "openapi", title: "API engineering & OpenAPI", topic: "portfolio-openapi", projects: []},
+  {id: "agents", title: "Agents & AI tools", topic: "portfolio-agents", projects: []},
+  {id: "plex", title: "Plex ecosystem", topic: "portfolio-plex", projects: []},
+  {id: "sdks", title: "Service SDKs & integrations", topic: "portfolio-sdks", projects: []},
+  {id: "web", title: "Web & app foundations", topic: "portfolio-web", projects: []},
+  {id: "developer-tools", title: "Developer tools & automation", topic: "portfolio-developer-tools", projects: []},
+  {id: "homelab", title: "Self-hosting & homelab", topic: "portfolio-homelab", projects: []},
+  {id: "devices", title: "Devices & interoperability", topic: "portfolio-devices", projects: []},
+  {id: "identity", title: "Identity & SailPoint", topic: "portfolio-identity", projects: []},
+  {id: "research", title: "Research, datasets & references", topic: "portfolio-research", projects: []}
+] -%}
+{%- set catalog = [] -%}
+{%- set invalid_topics = [] -%}
+{%- set candidates = project_snapshot.repositories | rejectattr("isPrivate") | rejectattr("isFork") | rejectattr("isArchived") -%}
+{%- for repo in candidates -%}
+  {%- set name = repo.name | lower -%}
+  {%- set description = (repo.description or "") | trim -%}
+  {%- if not description -%}{%- set description = description_overrides[name] or "" -%}{%- endif -%}
+  {%- if repo.owner | lower == config.github.username | lower and repo.visibility != "PRIVATE" -%}
+    {%- set topics = [] -%}
+    {%- set featured = "portfolio-featured" in repo.topics -%}
+    {%- for topic in repo.topics -%}{%- if topic.startsWith("portfolio-") and topic != "portfolio-featured" -%}{%- set ignored = topics.push(topic) -%}{%- endif -%}{%- endfor -%}
+    {%- set matches = [] -%}
+    {%- for group in project_groups -%}{%- if group.topic in topics -%}{%- set ignored = matches.push(group) -%}{%- endif -%}{%- endfor -%}
+    {%- if topics | length > 0 or featured -%}
+      {%- if topics | length != 1 or matches | length != 1 -%}
+        {%- set ignored = invalid_topics.push(repo.nameWithOwner) -%}
+      {%- else -%}
+        {%- set project = {
+          name: repo.name,
+          nameWithOwner: repo.nameWithOwner,
+          url: "https://github.com/" + repo.nameWithOwner,
+          description: description,
+          primaryLanguage: repo.primaryLanguage,
+          stars: repo.stars,
+          pushedAt: repo.pushedAt or "",
+          topic: topics[0],
+          featured: featured
+        } -%}
+        {%- set ignored = catalog.push(project) -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set catalog = catalog | sort(true, false, "pushedAt") | sort(true, false, "stars") | sort(true, false, "featured") -%}
+{%- for project in catalog -%}
+  {%- for group in project_groups -%}
+    {%- if project.topic == group.topic -%}
+      {%- set ignored = group.projects.push(project) -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- set populated_groups = [] -%}
+{%- for group in project_groups -%}{%- if group.projects | length > 0 -%}{%- set ignored = populated_groups.push(group) -%}{%- endif -%}{%- endfor -%}
 <!-- Generated from templates/profile.md.j2 with Diffler. -->
 <!-- profile-data: posts={{ posts | length }} community={{ community | length }} -->
+<!-- project-catalog: projects={{ catalog | length }} groups={{ populated_groups | length }} invalid={{ invalid_topics | length }} source={{ project_snapshot.generatedAt }} -->
 <div align="center">
 {{ card("readme", "Luke Parke's GitHub contributions, public repositories, and collection coverage", 560) }}
 
@@ -24,39 +110,36 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 
 ## Projects
 
-| Project | What I've been building |
-| --- | --- |
-| [Diffler](https://github.com/LukasParke/diffler) | GitHub statistics, profile READMEs, and animated cards—the tooling behind this profile. |
-| [Telescope](https://github.com/sailpoint-oss/telescope) | OpenAPI language tooling for VS Code and Cursor. |
-| [Arbiter](https://github.com/LukasParke/arbiter) | An API proxy that documents APIs as you use them. |
-| [Sveltey](https://github.com/LukasParke/Sveltey) | A SvelteKit SaaS starter template. |
+{{ catalog | length }} curated public projects, grouped by the `portfolio-*` topics I've assigned on GitHub.
+Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **{{ project_snapshot.generatedAt.slice(0, 10) }}**.
 
+{% for group in populated_groups %}
+### {{ group.title }}
+
+{{ project_table(group.projects.slice(0, 4)) }}
+{% if group.projects | length > 4 %}
 <details>
-<summary>More tools, templates, and SDKs</summary>
+<summary>More in {{ group.title }} ({{ group.projects | length - 4 }})</summary>
 
-### Svelte
-
-- [SvelteKit Adapters](https://github.com/LukasParke/sveltekit-adapters) — A collection of SvelteKit adapters.
-- [SvelteKit Extension Template](https://github.com/LukasParke/sveltekit-extension-template) — A starter for Chrome extensions built with SvelteKit.
-
-### OpenAPI
-
-- [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) — A visual OpenAPI designer.
-- [OpenAPI Definition Generator](https://github.com/LukasParke/openapi-definition-generator) — Generate OpenAPI definitions from JSON response bodies.
-
-### Plex
-
-- [Plex API Spec](https://github.com/LukasParke/plex-api-spec) — A better Plex Media Server API specification.
-- [Plex Mintlify Docs](https://github.com/LukasParke/plex-mintlify-docs) — Documentation generated from the API specification.
-- SDKs: [JavaScript](https://github.com/LukasParke/plexjs), [Python](https://github.com/LukasParke/plexpy), [Go](https://github.com/LukasParke/plexgo), [Ruby](https://github.com/LukasParke/plexruby), [Swift](https://github.com/LukasParke/plexswift), [PHP](https://github.com/LukasParke/plexphp), [Java](https://github.com/LukasParke/plexjava), and [C#](https://github.com/LukasParke/plexcsharp).
-
-### Earlier GitHub profile tools
-
-- [Stats Action](https://github.com/LukasParke/stats-action) — The original stats collector.
-- [GitHub Stats Remotion](https://github.com/LukasParke/github-stats-remotion) — The original animated profile cards.
-- [Stats](https://github.com/LukasParke/stats) — A template for collecting and publishing GitHub statistics.
+{{ project_table(group.projects.slice(4)) }}
 
 </details>
+{% endif %}
+{% endfor %}
+**Collaboration:** [Telescope](https://github.com/sailpoint-oss/telescope) — OpenAPI language tooling for VS Code and Cursor, with SailPoint OSS.
+
+<details>
+<summary>Browse the same projects by language</summary>
+
+{% for language, projects in repos_by_language(catalog) %}
+**{% if language == "Unknown" %}No primary language{% else %}{{ language }}{% endif %}** · {% for project in projects %}[{{ project.name }}]({{ project.url }}){% if not loop.last %} · {% endif %}{% endfor %}
+{% endfor %}
+
+</details>
+
+The catalog covers tagged, owned, non-fork, non-archived repositories. [How the groups are curated](.github/PROJECTS.md).
+Selected group highlights use `portfolio-featured`; stars and recent pushes order each tier. Push dates include automated updates.
+[Browse all repositories →](https://github.com/{{ config.github.username }}?tab=repositories)
 
 ## Code & languages
 
