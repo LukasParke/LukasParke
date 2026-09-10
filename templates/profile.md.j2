@@ -9,7 +9,7 @@
 | Project | Language | Stars / last push |
 | --- | --- | --- |
 {% for project in items -%}
-| <!-- project: {{ project.nameWithOwner }} -->[**{{ project.name | escape }}**]({{ project.url }})<br>{{ project.description | replace("\n", " ") | replace("\r", " ") | truncate(150) | escape | replace("|", "&#124;") }} | {{ project.primaryLanguage or "—" }} | ★ {{ project.stars }}<br>{{ project.pushedAt.slice(0, 10) }} |
+| <!-- project: {{ project.nameWithOwner }} -->[**{{ project.name | escape }}**]({{ project.url }})<br>{{ project.description | replace("\n", " ") | replace("\r", " ") | truncate(150) | escape | replace("|", "&#124;") }} | {{ project.primaryLanguage or "—" }} | ★ {{ project.stars }}<br>{% if project.pushedAt %}{{ project.pushedAt.slice(0, 10) }}{% else %}—{% endif %} |
 {% endfor -%}
 {%- endmacro -%}
 {%- set posts = devto_posts("lukeparke", 5) -%}
@@ -32,7 +32,8 @@
 {%- set candidates = project_snapshot.repositories | rejectattr("isPrivate") | rejectattr("isFork") | rejectattr("isArchived") -%}
 {%- for repo in candidates -%}
   {%- set name = repo.name | lower -%}
-  {%- set description = description_overrides[name] or repo.description or "" -%}
+  {%- set description = (repo.description or "") | trim -%}
+  {%- if not description -%}{%- set description = description_overrides[name] or "" -%}{%- endif -%}
   {%- if repo.owner | lower == config.github.username | lower and repo.visibility != "PRIVATE" and description | trim and not name.startsWith(".") and not name.endsWith("-test") and not name.endsWith("-demo") and "-repro" not in name and name != "peon-hello-world" -%}
     {%- set project = {
       name: repo.name,
@@ -41,7 +42,7 @@
       description: description,
       primaryLanguage: repo.primaryLanguage,
       stars: repo.stars,
-      pushedAt: repo.pushedAt or repo.updatedAt,
+      pushedAt: repo.pushedAt or "",
       search: (repo.name + " " + description + " " + (repo.topics | join(" "))) | lower
     } -%}
     {%- set ignored = catalog.push(project) -%}

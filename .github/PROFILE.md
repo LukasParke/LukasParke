@@ -28,6 +28,7 @@ Test/demo repositories and dot-prefixed automation repositories are omitted.
 
 The first four projects in each theme are visible; the rest remain available in
 expandable lists. Stars sort each group, with recent pushes breaking ties.
+Missing push dates display as `—` and sort after known dates within those ties.
 Diffler is pinned first in its theme and has a description fallback while its
 repository description is empty. Stars and UTC push dates are displayed as
 metadata, without estimating engineering effort. Telescope remains a separately
