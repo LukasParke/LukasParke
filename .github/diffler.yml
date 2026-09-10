@@ -1,0 +1,24 @@
+version: "1"
+
+github:
+  username: LukasParke
+  token: "${GITHUB_TOKEN}"
+
+templates:
+  directory: templates
+  main: profile.md.j2
+  builtins: false
+
+assets:
+  baseUrl: https://lukasparke.github.io/diffler
+  format: webp
+
+# Stats collection and card rendering run in LukasParke/stats and Diffler Pages.
+# This profile job refreshes the curated README, posts, and community links.
+statsAction:
+  includeTraffic: false
+  includeRestRepoStats: false
+  includePrivateRepositoryMetrics: false
+  includePrivateRepositoryDetails: false
+  includePrivateCacheDetails: false
+  backfillMode: "off"
