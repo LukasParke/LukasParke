@@ -1,0 +1,81 @@
+name: Update profile
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - .github/diffler.yml
+      - .github/scripts/**
+      - .github/workflows/update-profile.yml
+      - templates/**
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Render with Diffler
+        # Verified collection/card refresh, merged in LukasParke/diffler#16.
+        uses: LukasParke/diffler/packages/diffler@bac0799a883974c2245e235a9146da6ca8bfebf5
+        with:
+          github-token: ${{ github.token }}
+          config: .github/diffler.yml
+          output: .diffler/README.md
+          dry-run: "true"
+
+      - name: Validate generated profile and hosted assets
+        run: node .github/scripts/check-profile.mjs .diffler/README.md
+
+      - name: Upload rendered profile
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-readme
+          path: .diffler/README.md
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    needs: render
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: profile-readme
+          path: .diffler/rendered
+
+      - name: Publish generated README
+        run: |
+          cp .diffler/rendered/README.md README.md
+          git add -- README.md
+          if git diff --cached --quiet; then
+            echo "Profile is up to date."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+            -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m "chore: refresh profile with Diffler"
+          git push origin HEAD:main

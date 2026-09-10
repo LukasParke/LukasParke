@@ -1,11 +1,16 @@
-<!-- Generated from templates/profile.md.j2 with Diffler. -->
-<!-- profile-data: posts=5 community=20 -->
-<div align="center">
+{%- macro card(id, description, width) -%}
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://lukasparke.github.io/diffler/readme.png" type="image/png">
-  <source srcset="https://lukasparke.github.io/diffler/readme.webp" type="image/webp">
-  <img src="https://lukasparke.github.io/diffler/readme.gif" width="560" alt="Luke Parke's GitHub contributions, public repositories, and collection coverage">
+  <source media="(prefers-reduced-motion: reduce)" srcset="{{ config.assets.baseUrl }}/{{ id }}.png" type="image/png">
+  <source srcset="{{ profile_asset(id, config.assets) }}" type="image/webp">
+  <img src="{{ profile_asset(id, {baseUrl: config.assets.baseUrl, format: 'gif'}) }}" width="{{ width }}" alt="{{ description }}">
 </picture>
+{%- endmacro -%}
+{%- set posts = devto_posts("lukeparke", 5) -%}
+{%- set community = fetch_json("https://api.github.com/users/LukasParke/followers?per_page=100").slice(-20) | reverse -%}
+<!-- Generated from templates/profile.md.j2 with Diffler. -->
+<!-- profile-data: posts={{ posts | length }} community={{ community | length }} -->
+<div align="center">
+{{ card("readme", "Luke Parke's GitHub contributions, public repositories, and collection coverage", 560) }}
 
 **Developer experience. API design. Open source.**
 
@@ -55,23 +60,16 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 
 ## Code & languages
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://lukasparke.github.io/diffler/languages.png" type="image/png">
-  <source srcset="https://lukasparke.github.io/diffler/languages.webp" type="image/webp">
-  <img src="https://lukasparke.github.io/diffler/languages.gif" width="500" alt="Language distribution by code bytes in Luke Parke's owned original repositories">
-</picture>
+{{ card("languages", "Language distribution by code bytes in Luke Parke's owned original repositories", 500) }}
 
 Language share reflects code bytes in owned original repositories. Stats are snapshots;
 collection coverage is shown on the cards. [View the public stats source](https://github.com/LukasParke/stats/blob/main/github-user-stats.json).
 
 ## Recent writing
 
-- [Deploy SvelteKit node servers with docker](https://dev.to/lukeparke/deploy-sveltekit-node-servers-with-docker-1ep7)
-- [Coolify is the best thing for Homelabs since Fiber](https://dev.to/lukeparke/coolify-is-the-best-thing-for-homelabs-since-fiber-1kb5)
-- [The next generation of GitHub profile stats](https://dev.to/lukeparke/the-next-generation-of-github-profile-stats-1nh8)
-- [Building a world-class suite of SDKs is easy with Speakeasy](https://dev.to/lukeparke/building-a-world-class-suite-of-sdks-is-easy-with-speakeasy-37ba)
-- [Writing better Cobra CLI help messages with glamour](https://dev.to/lukeparke/writing-better-cobra-cli-help-messages-with-glamour-1525)
-
+{% for post in posts -%}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
 [More on Dev.to →](https://dev.to/lukeparke)
 
 <details>
@@ -79,27 +77,9 @@ collection coverage is shown on the cards. [View the public stats source](https:
 
 Thanks to the people following along. Here are a few from the community:
 
-- [@webbrain-dev](https://github.com/webbrain-dev)
-- [@aramisjustin068](https://github.com/aramisjustin068)
-- [@Modelplane01](https://github.com/Modelplane01)
-- [@JONH-droid](https://github.com/JONH-droid)
-- [@b03073557](https://github.com/b03073557)
-- [@Tomybarq](https://github.com/Tomybarq)
-- [@davido3574](https://github.com/davido3574)
-- [@luke-hagar-sp](https://github.com/luke-hagar-sp)
-- [@jioke1](https://github.com/jioke1)
-- [@korbirayen](https://github.com/korbirayen)
-- [@Waledsakr](https://github.com/Waledsakr)
-- [@Cornolio6981](https://github.com/Cornolio6981)
-- [@0xhustlerr](https://github.com/0xhustlerr)
-- [@Ari4ka](https://github.com/Ari4ka)
-- [@robbevs84](https://github.com/robbevs84)
-- [@pinchu2414](https://github.com/pinchu2414)
-- [@Danyseifedine](https://github.com/Danyseifedine)
-- [@HelloEveryboby](https://github.com/HelloEveryboby)
-- [@Anandprafull](https://github.com/Anandprafull)
-- [@turkonthelurk](https://github.com/turkonthelurk)
-
-[Meet everyone →](https://github.com/LukasParke?tab=followers)
+{% for follower in community -%}
+- [@{{ follower.login }}]({{ follower.html_url }})
+{% endfor %}
+[Meet everyone →](https://github.com/{{ config.github.username }}?tab=followers)
 
 </details>
