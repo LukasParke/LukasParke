@@ -13,10 +13,11 @@ assert(sources, 'Missing data-source receipt');
 assert(Number(sources[1]) > 0, 'Dev.to returned no posts; retain the previously published profile');
 assert(Number(sources[2]) > 0, 'GitHub returned no community entries; retain the previously published profile');
 
-const catalog = markdown.match(/<!-- project-catalog: projects=(\d+) groups=(\d+) source=([^ ]+) -->/);
+const catalog = markdown.match(/<!-- project-catalog: projects=(\d+) groups=(\d+) invalid=(\d+) source=([^ ]+) -->/);
 assert(catalog, 'Missing repository-catalog receipt');
 assert(Number(catalog[1]) > 0 && Number(catalog[2]) > 0, 'Repository snapshot produced an empty catalog');
-assert(Number.isFinite(Date.parse(catalog[3])), 'Invalid repository snapshot date');
+assert.equal(Number(catalog[3]), 0, 'A repository has multiple or unrecognized portfolio topics');
+assert(Number.isFinite(Date.parse(catalog[4])), 'Invalid repository snapshot date');
 const projects = [...markdown.matchAll(/<!-- project: ([^ ]+) -->/g)].map((match) => match[1]);
 assert.equal(projects.length, Number(catalog[1]), 'A project was dropped from the topic groups');
 assert.equal(new Set(projects).size, projects.length, 'A project was duplicated across topic groups');

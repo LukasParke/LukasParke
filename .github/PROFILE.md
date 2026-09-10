@@ -20,29 +20,42 @@ preferences. Card coverage labels describe incomplete collection.
 
 ## Project catalog
 
-The template fetches the public repository records from `LukasParke/stats` with
-`fetch_json`. It selects owned, non-fork, non-archived projects with descriptions,
-then assigns each project to one keyword theme. Names, descriptions, and GitHub
-topics all participate in matching; more specific themes take precedence.
-Test/demo repositories and dot-prefixed automation repositories are omitted.
+The template fetches public repository records from `LukasParke/stats` with
+`fetch_json`. A project enters the catalog when its GitHub topics contain exactly
+one recognized `portfolio-*` category. The optional `portfolio-featured` topic
+selects the first projects within a group. Group membership is manually curated on the
+repository, using the purpose of its README and source; names, descriptions, and
+languages do not implicitly move a project between groups.
+
+Only owned, public, non-fork, non-archived repositories are rendered. Untagged
+repositories stay outside the portfolio. Curated projects can appear even when
+their GitHub description is empty. See [PROJECTS.md](PROJECTS.md) for the taxonomy
+and review decisions.
 
 The first four projects in each theme are visible; the rest remain available in
-expandable lists. Stars sort each group, with recent pushes breaking ties.
+expandable lists. Featured projects lead; stars sort each tier, with recent pushes breaking ties.
 Missing push dates display as `—` and sort after known dates within those ties.
-Diffler is pinned first in its theme and has a description fallback while its
-repository description is empty. Stars and UTC push dates are displayed as
+Reviewed projects have source-backed description fallbacks while their
+repository descriptions are empty. Stars and UTC push dates are displayed as
 metadata, without estimating engineering effort. Telescope remains a separately
 identified collaboration rather than an owned repository.
 
 `repos_by_language(catalog)` generates a second, expandable navigation index over
-the same projects. Topic matching, ordering, descriptions, and row rendering live
-in `templates/profile.md.j2`; there is no separate project-generation script.
-The validator checks catalog completeness, unique assignment, owner scope, and
-the snapshot date before publication.
+the same projects. Exact topic matching, ordering, descriptions, and row rendering
+live in `templates/profile.md.j2`; there is no separate project-generation script.
+The validator rejects unrecognized/multiple portfolio topics, empty catalogs,
+duplicate assignment, unexpected owners, and invalid snapshot dates before
+publication.
 
-To tune the catalog, edit `project_groups` (keywords/priority) and
-`description_overrides` in the template. Future repositories enter automatically
-when their public metadata qualifies.
+To curate a repository, set its portfolio topic in GitHub's About/Topics settings.
+Keep existing technical topics and replace only the old portfolio group when
+moving a project. The stats workflow refreshes the topic snapshot; the next
+profile run adopts it. For immediate propagation, manually run **GitHub Profile
+Stats** in `LukasParke/stats` before rerunning this profile workflow.
+
+To add a category, register its exact topic and display title in `project_groups`.
+Use `description_overrides` only for missing descriptions, with captions grounded
+in the project's README.
 
 For a local preview, use a checkout of the pinned Diffler revision:
 
