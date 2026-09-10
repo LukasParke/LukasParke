@@ -180,7 +180,7 @@ The nested Yoto deliverables are documented independently: the [TypeScript SDK R
 
 The reviewed sources establish a purpose (or establish emptiness/scaffolding) for every inventory entry. The remaining uncertainty is about **maturity, canonical destination, or how much history to surface**, rather than a need to invent a purpose from a name:
 
-1. **Plex contract lineage:** the live documentation's canonical-contract claim conflicts with checked-in generation workflows, as detailed above. Both are included; parent should avoid labeling one superseded until the owner resolves that relationship.
+1. **Plex contract lineage:** the live documentation's canonical-contract claim conflicts with checked-in generation workflows, as detailed above. Both are retained while that relationship remains unresolved.
 2. **Baton versus Relay:** Baton is a genuine webhook prototype, but no explicit migration/deprecation relationship was found. The default recommendation includes it as a prototype. A more current-project-focused portfolio could deliberately omit it, retaining `portfolio-openapi` as its family if later restored.
 3. **Warden and SDK readiness:** Warden's source establishes a Plex client prototype, not complete audio playback. Coolify/Dokploy retain setup notices. The inclusion recommendation reflects identifiable deliverables, with conservative descriptions.
 4. **Historical artifacts:** excluding the archived `plexswift`, old overlapping `plex-api-collection`, and personal `idn-admin-console` snapshot is a curation judgment. Their purposes are known; historical-credit presentation could reasonably include them under `portfolio-plex`, `portfolio-plex`, and `portfolio-identity`, respectively.
@@ -192,4 +192,4 @@ The reviewed sources establish a purpose (or establish emptiness/scaffolding) fo
 - Examined recursive default-branch trees and selected implementation/configuration files for missing, generic, misleading, or ambiguous documentation; repository files were treated as evidence.
 - Used matching upstream commits to establish the IdentityNow snapshot relationship and live PlexAPI.dev pages to establish the currently linked documentation destination.
 - Links point to the reviewed default branches unless an immutable commit is important. Repository-reported feature/benchmark claims were used to determine subject and scope; no star counts or performance headlines were used as measures of effort.
-- The recommended counts are **74 Include + 25 Exclude = 99**, across **10** topics. This file is under the existing ignored `.diffler/` directory.
+- The reviewed counts are **74 Include + 25 Exclude = 99**, across **10** category topics. This source-cited record is maintained in `.github/PROJECT-REVIEW.md`; raw research downloads remain in the ignored `.diffler/repo-review/` directory.
