@@ -1,6 +1,6 @@
 <!-- Generated from templates/profile.md.j2 with Diffler. -->
 <!-- profile-data: posts=5 community=20 -->
-<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-10T16:33:14.122Z -->
+<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-11T12:31:24.920Z -->
 <div align="center">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://lukasparke.github.io/diffler/readme.png" type="image/png">
@@ -21,7 +21,7 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 ## Projects
 
 74 curated public projects, grouped by the `portfolio-*` topics I've assigned on GitHub.
-Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-10**.
+Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-11**.
 
 
 ### API engineering & OpenAPI
@@ -59,9 +59,9 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
+| <!-- project: LukasParke/wikillm-api -->[**wikillm-api**](https://github.com/LukasParke/wikillm-api)<br>Markdown-backed knowledge/search service with cited answers, MCP, and agent memory. | Rust | ★ 0<br>2026-09-11 |
 | <!-- project: LukasParke/pi-extensions -->[**pi-extensions**](https://github.com/LukasParke/pi-extensions)<br>Monorepo of pi coding agent extensions published as individual packages | TypeScript | ★ 0<br>2026-09-10 |
 | <!-- project: LukasParke/ex-caliber -->[**ex-caliber**](https://github.com/LukasParke/ex-caliber)<br>Excalidraw-compatible native whiteboard in Rust on GPUI, MCP-native so coding agents (Claude Code, Cursor) draw on the canvas with you | Rust | ★ 0<br>2026-08-25 |
-| <!-- project: LukasParke/wikillm-api -->[**wikillm-api**](https://github.com/LukasParke/wikillm-api)<br>Markdown-backed knowledge/search service with cited answers, MCP, and agent memory. | Rust | ★ 0<br>2026-08-22 |
 
 
 
@@ -69,7 +69,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-10 |
+| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-11 |
 | <!-- project: LukasParke/plexjs -->[**plexjs**](https://github.com/LukasParke/plexjs)<br>A Typescript SDK for interacting with Plex Media Server | TypeScript | ★ 51<br>2026-08-21 |
 | <!-- project: LukasParke/plexgo -->[**plexgo**](https://github.com/LukasParke/plexgo)<br>An open source Plex Media Server Golang SDK | Go | ★ 34<br>2026-08-21 |
 | <!-- project: LukasParke/plex-mintlify-docs -->[**plex-mintlify-docs**](https://github.com/LukasParke/plex-mintlify-docs)<br>Open Source Plex Media Server API Documentation | MDX | ★ 1<br>2026-06-13 |
@@ -158,7 +158,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/home-ops -->[**home-ops**](https://github.com/LukasParke/home-ops)<br>Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks. | YAML | ★ 0<br>2026-09-09 |
+| <!-- project: LukasParke/home-ops -->[**home-ops**](https://github.com/LukasParke/home-ops)<br>Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks. | YAML | ★ 0<br>2026-09-10 |
 | <!-- project: LukasParke/hive -->[**hive**](https://github.com/LukasParke/hive)<br>Self-hosted Docker Swarm PaaS with a Go control plane, builds, and per-node agents. | Go | ★ 0<br>2026-09-02 |
 | <!-- project: LukasParke/Rivet -->[**Rivet**](https://github.com/LukasParke/Rivet)<br>Self-hosted media discovery, acquisition, verification, and import orchestration. | Rust | ★ 0<br>2026-08-22 |
 | <!-- project: LukasParke/paperclip-coolify -->[**paperclip-coolify**](https://github.com/LukasParke/paperclip-coolify)<br>Coolify deployment and image packaging for Paperclip, with agent CLIs and update automation. | JavaScript | ★ 0<br>2026-07-08 |
@@ -169,7 +169,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-10 |
+| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-11 |
 | <!-- project: LukasParke/swarm -->[**swarm**](https://github.com/LukasParke/swarm)<br>My HA Homelab swarm config | — | ★ 0<br>2026-03-19 |
 
 
@@ -181,7 +181,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 | Project | Language | Stars / last push |
 | --- | --- | --- |
 | <!-- project: LukasParke/wave3-research -->[**wave3-research**](https://github.com/LukasParke/wave3-research)<br>Educational reverse-engineering of the Elgato Wave:3 USB audio protocol and a native Linux D-Bus control daemon | C | ★ 1<br>2026-06-22 |
-| <!-- project: LukasParke/yoto_api -->[**yoto_api**](https://github.com/LukasParke/yoto_api)<br>Async Python wrapper for the Yoto API, plus TypeScript SDK, web UI, and Home Assistant integration | Python | ★ 0<br>2026-09-07 |
+| <!-- project: LukasParke/yoto_api -->[**yoto_api**](https://github.com/LukasParke/yoto_api)<br>Async Python wrapper for the Yoto API, plus TypeScript SDK, web UI, and Home Assistant integration | Python | ★ 0<br>2026-09-11 |
 | <!-- project: LukasParke/capi -->[**capi**](https://github.com/LukasParke/capi)<br>CEC API | Rust | ★ 0<br>2026-08-22 |
 | <!-- project: LukasParke/yoto-fingerprint -->[**yoto-fingerprint**](https://github.com/LukasParke/yoto-fingerprint)<br>Educational reverse-engineering toolkit and technical specification for Yoto NFC cards. | Python | ★ 0<br>2026-06-24 |
 
@@ -259,7 +259,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 **Ruby** · [plexruby](https://github.com/LukasParke/plexruby)
 
-**Rust** · [arbiter](https://github.com/LukasParke/arbiter) · [suspect](https://github.com/LukasParke/suspect) · [ex-caliber](https://github.com/LukasParke/ex-caliber) · [smelt](https://github.com/LukasParke/smelt) · [capi](https://github.com/LukasParke/capi) · [wikillm-api](https://github.com/LukasParke/wikillm-api) · [rumor](https://github.com/LukasParke/rumor) · [Rivet](https://github.com/LukasParke/Rivet) · [charte.rs](https://github.com/LukasParke/charte.rs) · [relay](https://github.com/LukasParke/relay)
+**Rust** · [arbiter](https://github.com/LukasParke/arbiter) · [suspect](https://github.com/LukasParke/suspect) · [wikillm-api](https://github.com/LukasParke/wikillm-api) · [ex-caliber](https://github.com/LukasParke/ex-caliber) · [smelt](https://github.com/LukasParke/smelt) · [capi](https://github.com/LukasParke/capi) · [rumor](https://github.com/LukasParke/rumor) · [Rivet](https://github.com/LukasParke/Rivet) · [charte.rs](https://github.com/LukasParke/charte.rs) · [relay](https://github.com/LukasParke/relay)
 
 **Svelte** · [sveltekit-extension-template](https://github.com/LukasParke/sveltekit-extension-template) · [Sveltey](https://github.com/LukasParke/Sveltey) · [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) · [Anchor](https://github.com/LukasParke/Anchor) · [baton](https://github.com/LukasParke/baton)
 
