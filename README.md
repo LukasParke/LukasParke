@@ -302,7 +302,6 @@ collection coverage is shown on the cards. [View the public stats source](https:
 
 Thanks to the people following along. Here are a few from the community:
 
-- [@webbrain-dev](https://github.com/webbrain-dev)
 - [@aramisjustin068](https://github.com/aramisjustin068)
 - [@Modelplane01](https://github.com/Modelplane01)
 - [@JONH-droid](https://github.com/JONH-droid)
@@ -322,6 +321,7 @@ Thanks to the people following along. Here are a few from the community:
 - [@HelloEveryboby](https://github.com/HelloEveryboby)
 - [@Anandprafull](https://github.com/Anandprafull)
 - [@turkonthelurk](https://github.com/turkonthelurk)
+- [@d3j1x](https://github.com/d3j1x)
 
 [Meet everyone →](https://github.com/LukasParke?tab=followers)
 
