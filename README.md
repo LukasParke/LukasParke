@@ -1,6 +1,6 @@
 <!-- Generated from templates/profile.md.j2 with Diffler. -->
 <!-- profile-data: posts=5 community=20 -->
-<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-16T12:31:36.417Z -->
+<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-17T12:30:25.071Z -->
 <div align="center">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://lukasparke.github.io/diffler/readme.png" type="image/png">
@@ -21,7 +21,7 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 ## Projects
 
 74 curated public projects, grouped by the `portfolio-*` topics I've assigned on GitHub.
-Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-16**.
+Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-17**.
 
 
 ### API engineering & OpenAPI
@@ -69,7 +69,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-16 |
+| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-17 |
 | <!-- project: LukasParke/plexjs -->[**plexjs**](https://github.com/LukasParke/plexjs)<br>A Typescript SDK for interacting with Plex Media Server | TypeScript | ★ 51<br>2026-08-21 |
 | <!-- project: LukasParke/plexgo -->[**plexgo**](https://github.com/LukasParke/plexgo)<br>An open source Plex Media Server Golang SDK | Go | ★ 34<br>2026-08-21 |
 | <!-- project: LukasParke/plex-mintlify-docs -->[**plex-mintlify-docs**](https://github.com/LukasParke/plex-mintlify-docs)<br>Open Source Plex Media Server API Documentation | MDX | ★ 1<br>2026-06-13 |
@@ -169,7 +169,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-16 |
+| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-17 |
 | <!-- project: LukasParke/swarm -->[**swarm**](https://github.com/LukasParke/swarm)<br>My HA Homelab swarm config | — | ★ 0<br>2026-03-19 |
 
 
