@@ -1,6 +1,6 @@
 <!-- Generated from templates/profile.md.j2 with Diffler. -->
 <!-- profile-data: posts=5 community=20 -->
-<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-23T12:33:11.782Z -->
+<!-- project-catalog: projects=74 groups=10 invalid=0 source=2026-09-24T12:32:28.058Z -->
 <div align="center">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://lukasparke.github.io/diffler/readme.png" type="image/png">
@@ -21,7 +21,7 @@ I love Svelte, TypeScript, Go, and tools that make other developers' lives easie
 ## Projects
 
 74 curated public projects, grouped by the `portfolio-*` topics I've assigned on GitHub.
-Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-23**.
+Language, stars, and last-push dates come from the [GitHub snapshot](https://github.com/LukasParke/stats/blob/main/github-user-stats.json) dated **2026-09-24**.
 
 
 ### API engineering & OpenAPI
@@ -30,7 +30,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 | --- | --- | --- |
 | <!-- project: LukasParke/OpenAPI.gg -->[**OpenAPI.gg**](https://github.com/LukasParke/OpenAPI.gg)<br>An OpenAPI design studio | Svelte | ★ 6<br>2026-08-21 |
 | <!-- project: LukasParke/arbiter -->[**arbiter**](https://github.com/LukasParke/arbiter)<br>A powerful API proxy that automatically documents your API with OpenAPI and HAR recordings | Rust | ★ 4<br>2026-09-09 |
-| <!-- project: LukasParke/suspect -->[**suspect**](https://github.com/LukasParke/suspect)<br>API engineering toolkit for OpenAPI, Arazzo, Overlay, validation, linting, LSP, and contract testing. | Rust | ★ 1<br>2026-09-22 |
+| <!-- project: LukasParke/suspect -->[**suspect**](https://github.com/LukasParke/suspect)<br>API engineering toolkit for OpenAPI, Arazzo, Overlay, validation, linting, LSP, and contract testing. | Rust | ★ 1<br>2026-09-23 |
 | <!-- project: LukasParke/navigator -->[**navigator**](https://github.com/LukasParke/navigator)<br>Go library for parsing, indexing, and resolving references across OpenAPI workspaces. | Go | ★ 0<br>2026-03-18 |
 
 
@@ -59,8 +59,8 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
+| <!-- project: LukasParke/pi-extensions -->[**pi-extensions**](https://github.com/LukasParke/pi-extensions)<br>Monorepo of pi coding agent extensions published as individual packages | TypeScript | ★ 1<br>2026-09-10 |
 | <!-- project: LukasParke/wikillm-api -->[**wikillm-api**](https://github.com/LukasParke/wikillm-api)<br>Markdown-backed knowledge/search service with cited answers, MCP, and agent memory. | Rust | ★ 0<br>2026-09-11 |
-| <!-- project: LukasParke/pi-extensions -->[**pi-extensions**](https://github.com/LukasParke/pi-extensions)<br>Monorepo of pi coding agent extensions published as individual packages | TypeScript | ★ 0<br>2026-09-10 |
 | <!-- project: LukasParke/ex-caliber -->[**ex-caliber**](https://github.com/LukasParke/ex-caliber)<br>Excalidraw-compatible native whiteboard in Rust on GPUI, MCP-native so coding agents (Claude Code, Cursor) draw on the canvas with you | Rust | ★ 0<br>2026-08-25 |
 
 
@@ -69,9 +69,9 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-23 |
+| <!-- project: LukasParke/plex-api-spec -->[**plex-api-spec**](https://github.com/LukasParke/plex-api-spec)<br>A Plex Media Server OpenAPI Specification maintained by the community | JavaScript | ★ 85<br>2026-09-24 |
 | <!-- project: LukasParke/plexjs -->[**plexjs**](https://github.com/LukasParke/plexjs)<br>A Typescript SDK for interacting with Plex Media Server | TypeScript | ★ 51<br>2026-08-21 |
-| <!-- project: LukasParke/plexgo -->[**plexgo**](https://github.com/LukasParke/plexgo)<br>An open source Plex Media Server Golang SDK | Go | ★ 34<br>2026-08-21 |
+| <!-- project: LukasParke/plexgo -->[**plexgo**](https://github.com/LukasParke/plexgo)<br>An open source Plex Media Server Golang SDK | Go | ★ 35<br>2026-08-21 |
 | <!-- project: LukasParke/plex-mintlify-docs -->[**plex-mintlify-docs**](https://github.com/LukasParke/plex-mintlify-docs)<br>Open Source Plex Media Server API Documentation | MDX | ★ 1<br>2026-06-13 |
 
 
@@ -158,7 +158,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/home-ops -->[**home-ops**](https://github.com/LukasParke/home-ops)<br>Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks. | YAML | ★ 0<br>2026-09-23 |
+| <!-- project: LukasParke/home-ops -->[**home-ops**](https://github.com/LukasParke/home-ops)<br>Talos/Flux Kubernetes homelab GitOps, application manifests, and operational runbooks. | YAML | ★ 0<br>2026-09-24 |
 | <!-- project: LukasParke/hive -->[**hive**](https://github.com/LukasParke/hive)<br>Self-hosted Docker Swarm PaaS with a Go control plane, builds, and per-node agents. | Go | ★ 0<br>2026-09-02 |
 | <!-- project: LukasParke/Rivet -->[**Rivet**](https://github.com/LukasParke/Rivet)<br>Self-hosted media discovery, acquisition, verification, and import orchestration. | Rust | ★ 0<br>2026-08-22 |
 | <!-- project: LukasParke/paperclip-coolify -->[**paperclip-coolify**](https://github.com/LukasParke/paperclip-coolify)<br>Coolify deployment and image packaging for Paperclip, with agent CLIs and update automation. | JavaScript | ★ 0<br>2026-07-08 |
@@ -169,7 +169,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 | Project | Language | Stars / last push |
 | --- | --- | --- |
-| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-23 |
+| <!-- project: LukasParke/pocketbase -->[**pocketbase**](https://github.com/LukasParke/pocketbase)<br>A bit of community automation to keep a DockerHub image of pocketbase always up to date | Dockerfile | ★ 1<br>2026-09-24 |
 | <!-- project: LukasParke/swarm -->[**swarm**](https://github.com/LukasParke/swarm)<br>My HA Homelab swarm config | — | ★ 0<br>2026-03-19 |
 
 
@@ -263,7 +263,7 @@ Language, stars, and last-push dates come from the [GitHub snapshot](https://git
 
 **Svelte** · [sveltekit-extension-template](https://github.com/LukasParke/sveltekit-extension-template) · [Sveltey](https://github.com/LukasParke/Sveltey) · [OpenAPI.gg](https://github.com/LukasParke/OpenAPI.gg) · [Anchor](https://github.com/LukasParke/Anchor) · [baton](https://github.com/LukasParke/baton)
 
-**TypeScript** · [plexjs](https://github.com/LukasParke/plexjs) · [Coolify-TypeScript-SDK](https://github.com/LukasParke/Coolify-TypeScript-SDK) · [archives-of-nethys-scraper](https://github.com/LukasParke/archives-of-nethys-scraper) · [github-stats-remotion](https://github.com/LukasParke/github-stats-remotion) · [stats-action](https://github.com/LukasParke/stats-action) · [openapi-definition-generator](https://github.com/LukasParke/openapi-definition-generator) · [varsity](https://github.com/LukasParke/varsity) · [openapi-types](https://github.com/LukasParke/openapi-types) · [pypistats.dev](https://github.com/LukasParke/pypistats.dev) · [prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) · [Dokploy-ts-sdk](https://github.com/LukasParke/Dokploy-ts-sdk) · [pi-extensions](https://github.com/LukasParke/pi-extensions) · [Prowlarr-TS-SDK](https://github.com/LukasParke/Prowlarr-TS-SDK) · [discoursejs](https://github.com/LukasParke/discoursejs) · [toasty](https://github.com/LukasParke/toasty) · [aperture](https://github.com/LukasParke/aperture) · [jsdoc-cheatsheet](https://github.com/LukasParke/jsdoc-cheatsheet) · [plexapi-dev-docs](https://github.com/LukasParke/plexapi-dev-docs) · [usage-statistics](https://github.com/LukasParke/usage-statistics) · [github-stats-api](https://github.com/LukasParke/github-stats-api)
+**TypeScript** · [plexjs](https://github.com/LukasParke/plexjs) · [Coolify-TypeScript-SDK](https://github.com/LukasParke/Coolify-TypeScript-SDK) · [archives-of-nethys-scraper](https://github.com/LukasParke/archives-of-nethys-scraper) · [github-stats-remotion](https://github.com/LukasParke/github-stats-remotion) · [stats-action](https://github.com/LukasParke/stats-action) · [openapi-definition-generator](https://github.com/LukasParke/openapi-definition-generator) · [varsity](https://github.com/LukasParke/varsity) · [openapi-types](https://github.com/LukasParke/openapi-types) · [pypistats.dev](https://github.com/LukasParke/pypistats.dev) · [prettier-plugin-openapi](https://github.com/LukasParke/prettier-plugin-openapi) · [pi-extensions](https://github.com/LukasParke/pi-extensions) · [Dokploy-ts-sdk](https://github.com/LukasParke/Dokploy-ts-sdk) · [Prowlarr-TS-SDK](https://github.com/LukasParke/Prowlarr-TS-SDK) · [discoursejs](https://github.com/LukasParke/discoursejs) · [toasty](https://github.com/LukasParke/toasty) · [aperture](https://github.com/LukasParke/aperture) · [jsdoc-cheatsheet](https://github.com/LukasParke/jsdoc-cheatsheet) · [plexapi-dev-docs](https://github.com/LukasParke/plexapi-dev-docs) · [usage-statistics](https://github.com/LukasParke/usage-statistics) · [github-stats-api](https://github.com/LukasParke/github-stats-api)
 
 **No primary language** · [discourse-api-spec](https://github.com/LukasParke/discourse-api-spec) · [tui-patterns](https://github.com/LukasParke/tui-patterns) · [volar-docs](https://github.com/LukasParke/volar-docs) · [scalar-cheatsheet](https://github.com/LukasParke/scalar-cheatsheet) · [http-ws-reference](https://github.com/LukasParke/http-ws-reference) · [ubiquitous-journey](https://github.com/LukasParke/ubiquitous-journey) · [swarm](https://github.com/LukasParke/swarm) · [plex-postman](https://github.com/LukasParke/plex-postman)
 
