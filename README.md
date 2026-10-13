@@ -305,6 +305,7 @@ Thanks to the people following along. Here are a few from the community:
 - [@aramisjustin068](https://github.com/aramisjustin068)
 - [@Modelplane01](https://github.com/Modelplane01)
 - [@JONH-droid](https://github.com/JONH-droid)
+- [@daniyal123gb-svg](https://github.com/daniyal123gb-svg)
 - [@b03073557](https://github.com/b03073557)
 - [@Tomybarq](https://github.com/Tomybarq)
 - [@davido3574](https://github.com/davido3574)
@@ -321,7 +322,6 @@ Thanks to the people following along. Here are a few from the community:
 - [@HelloEveryboby](https://github.com/HelloEveryboby)
 - [@Anandprafull](https://github.com/Anandprafull)
 - [@turkonthelurk](https://github.com/turkonthelurk)
-- [@d3j1x](https://github.com/d3j1x)
 
 [Meet everyone →](https://github.com/LukasParke?tab=followers)
 
